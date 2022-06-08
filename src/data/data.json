@@ -1,21 +1,24 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Entrepreneurship Cell ( E-Cell )",
+    "paragraph": "Indian Institute of Technology",
+    "paragraph2": "Spreading the spirit of Entrepreneurship"
+
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Entrepreneurship Cell at IIT Indore believes that entrepreneurship is not just about starting companies, but a pathway towards India's socio-economic development. Our vision is to make students and faculty entrepreneurial in every work that they do. We hope to enable them to solve global challenges as we see students as the greatest capital and intend to nurture them, provide them with opportunities for excellence.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      
+      "speaker engagements",
+      "social events",
+      "lectures",
+      "conference"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "workshops",
+      "join startups",
+      "unlock students",
+      "inventive potential"
     ]
   },
   "Gallery": [
@@ -68,33 +71,33 @@
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "E-Summit",
+      "text": "It's a conclave of competitions, workshops, panel discussions and speeches from the biggest names in the world of business"
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Lecture Series",
+      "text": "Discover, learn, develop skills that every entrepreneur requires in his journey. A chance to learn from the best experts of the country."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Engendea",
+      "text": "A day long event where teams have to pitch an idea and develop a business model for the same. Exciting prices always await at the other end."
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Workshops",
+      "text": "An interactive training session offering innovative delivering models where participants gain hands on experience to establish vibrant communities."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Entrepreneurship Awareness Camp",
+      "text": "EAC was conducted by E-Cell, IIT Indore to spread the entrepreneurial awareness among the students."
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "F",
+      "text": "U"
     }
   ],
   "Testimonials": [
@@ -152,11 +155,11 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
+    "address": "Room 302-B, PHY-1, Academic POD, IIT Indore, Madhya Pradesh-452020 ",
+    "phone": "Sharvari Kulkarni :+91-9325961083",
+    "email": "ecell@iiti.ac.in",
+    "facebook": "https://www.facebook.com/sesciiti/",
+    "twitter": "https://twitter.com/sesciiti",
     "youtube": "youtube.com"
   },
   "Features": [

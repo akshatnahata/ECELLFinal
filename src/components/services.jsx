@@ -3,10 +3,9 @@ export const Services = (props) => {
     <div id='services' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Our Services</h2>
+          <h2>What we do?</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+          E-Summit is the flagship event conducted by E-Cell, IIT Indore. It's a conclave of competitions, workshops, panel discussions and speeches from the biggest names in the world of business.
           </p>
         </div>
         <div className='row'>
