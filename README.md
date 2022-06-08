@@ -2,7 +2,7 @@
 
 **
 
-# 🛎️🛎️ Good news! New & improved [V2](https://github.com/issaafalkattan/react-landing-page-template-2021) is out  
+# 🛎️🛎️ Good news! New & improved [V2]
 
 **
 
@@ -25,10 +25,10 @@ You can also change styles by modifying the ```public/css``` files.
 
 
 ## Like this project?
-<a href="https://www.buymeacoffee.com/issaaf">Buy my a coffee ☕️</a>
+<a href="akshatnahata05@gmail.com">Buy my a coffee ☕️</a>
 
 ## Credits
 ##### Free CSS 
 <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
 
-##### Issaaf kattan
+##### Akshat Nahata
