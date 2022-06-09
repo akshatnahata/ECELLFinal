@@ -1,12 +1,13 @@
 export const Image = ({ title, largeImage, smallImage }) => {
   return (
-    <div className='portfolio-item'>
+    <div className='portfolio-item' >
       <div className='hover-bg'>
         {' '}
         <a
           href={largeImage}
           title={title}
           data-lightbox-gallery='gallery1'
+          target='blank'
         >
           <div className='hover-text'>
             <h4>{title}</h4>

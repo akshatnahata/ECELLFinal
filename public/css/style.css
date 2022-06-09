@@ -245,7 +245,7 @@ header .intro-text {
   text-align: center;
 }
 /* Features Section */
-#features {
+#features, #team {
   background: #f6f6f6;
 }
 #features i.fa {
@@ -357,6 +357,8 @@ header .intro-text {
 .portfolio-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
+  width: 300px;
+  height: auto;
 }
 .portfolio-item .hover-bg {
   overflow: hidden;
@@ -442,6 +444,10 @@ header .intro-text {
 /* Team Section */
 #team {
   padding: 100px 0;
+}
+#team .mentor{
+  display: flex;
+  justify-content: center;
 }
 #team h4 {
   margin: 5px 0;
