@@ -1,7 +1,7 @@
 {
   "Header": {
-    "title": "Entrepreneurship Cell ( E-Cell )",
-    "paragraph": "Indian Institute of Technology",
+    "title": "Entrepreneurship Cell",
+    "paragraph": "Indian Institute of Technology, Indore",
     "paragraph2": "Spreading the spirit of Entrepreneurship"
 
   },
@@ -147,6 +147,13 @@
       "icon": "fa fa-gavel",
       "title": "Crazy Ideas",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ],
+  "members": [
+    {
+      "img": "img/team/nishant.jpeg",
+      "name": "Nishant Gautam",
+      "job": "ng29834@gmail.com"
     }
   ]
 }
