@@ -129,23 +129,23 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
+      "icon": "fa fa-gavel",
+      "title": "Marketing Fiesta",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
+      "icon": "fa fa-gavel",
+      "title": "StockGro Trading League",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
+      "icon": "fa fa-gavel",
+      "title": "IPL Auction",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
+      "icon": "fa fa-gavel",
+      "title": "Crazy Ideas",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
   ]
