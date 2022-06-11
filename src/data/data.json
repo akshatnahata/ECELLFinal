@@ -20,7 +20,8 @@
       "join startups",
       "unlock students",
       "inventive potential"
-    ]
+    ],
+    "vision": "E-Cell aims to unlock students' latent inventive potential. Not only do we show you the doors of opportunity but we also equip you to walk through it. Through our conference, social events, lectures, speaker engagements and workshops, we're hoping to bring together everyone interested in the startup world and to help students best utilize resources to found or join startups..."
   },
   "Gallery": [
     {
@@ -152,9 +153,45 @@
   ],
   "members": [
     {
-      "img": "img/team/nishant.jpeg",
-      "name": "Nishant Gautam",
-      "job": "ng29834@gmail.com"
+      "img": "img/team/DeveshJindal.jpg",
+      "name": "Devesh Jindal",
+      "res": "Sponsorship and Marketing",
+      "facebook": "https://www.facebook.com/sesciiti/",
+      "twitter": "https://twitter.com/sesciiti",
+      "youtube": "youtube.com"
+    },
+    {
+      "img": "img/team/RishuPal.jpg",
+      "name": "Rishu Pal",
+      "res": "Sponsorship and Marketing",
+      "facebook": "https://www.facebook.com/sesciiti/",
+      "twitter": "https://twitter.com/sesciiti",
+      "youtube": "youtube.com"
+    },
+    {
+      "img": "img/team/UtkarshKhairnar.jpg",
+      "name": "Utkarsh Khairnar",
+      "res": "Sponsorship and Marketing",
+      "facebook": "https://www.facebook.com/sesciiti/",
+      "twitter": "https://twitter.com/sesciiti",
+      "youtube": "youtube.com"
+    },
+    {
+      "img": "img/team/DevendraAhirwar.jpg",
+      "name": "Devendra Ahirwar",
+      "res": "Sponsorship and Marketing",
+      "facebook": "https://www.facebook.com/sesciiti/",
+      "twitter": "https://twitter.com/sesciiti",
+      "youtube": "youtube.com"
+    },
+    {
+      "img": "img/team/AnubhavSingh.jpg",
+      "name": "Anubhav Singh",
+      "res": "Sponsorship and Marketing",
+      "facebook": "https://www.facebook.com/sesciiti/",
+      "twitter": "https://twitter.com/sesciiti",
+      "youtube": "youtube.com"
     }
+
   ]
 }

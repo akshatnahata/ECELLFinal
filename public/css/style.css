@@ -203,12 +203,124 @@ a:focus,
   outline: none;
   outline-offset: none;
 }
+
+/* Cards */
+#ourteam {
+  margin: 100px;
+  transition: all 100ms;
+}
+
+#ourteam * {
+	box-sizing: border-box;
+}
+
+
+#ourteam h3 {
+  color: #f0f1f7;
+	margin: 10px 0;
+}
+
+#ourteam h6 {
+	margin: 5px 0;
+	text-transform: uppercase;
+}
+
+#ourteam p {
+	font-size: 14px;
+	line-height: 21px;
+}
+/* #ourteam #row{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+} */
+#ourteam .card-container {
+  display: inline-block;
+	background-color: #231E39;
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+	color: #f0f1f7;
+	padding-top: 20px;
+	position: relative;
+	width: 250px;
+	max-width: 100%;
+	text-align: center;
+  margin:40px 20px;
+}
+
+#ourteam .fa{
+  color: #f5f5ff;
+  font-size: 16px;
+  transition: all 100ms;
+}
+
+#ourteam .fa:hover{
+  font-size: 20px;
+  color: #6ca3de;
+}
+
+#ourteam .card-container .pro {
+	color: #231E39;
+	background-color: #FEBB0B;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 3px 7px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+#ourteam .card-container .round {
+	border: 1px solid #03BFCB;
+	border-radius: 50%;
+	padding: 7px;
+  max-width: 160px;
+}
+
+#ourteam button.primary {
+	background-color: #03BFCB;
+	border: 1px solid #03BFCB;
+	border-radius: 3px;
+	color: #f7f7fb;
+	font-family: Montserrat, sans-serif;
+	font-weight: 500;
+	padding: 10px 25px;
+}
+
+#ourteam button.primary.ghost {
+	background-color: transparent;
+	color: #02899C;
+}
+
+#ourteam .skills {
+	background-color: #1F1A36;
+	text-align: center;
+	padding: 15px;
+	margin-top: 3px;
+}
+
+#ourteam .skills ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#ourteam .skills ul li {
+	border: 1px solid #2D2747;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 7px 7px 0;
+	padding: 7px;
+}
+
 /* Header Section */
 .intro {
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/header-bg.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -216,7 +328,7 @@ a:focus,
   -o-background-size: cover;
 }
 .intro .overlay {
-  background: #00000021;
+  background: #00000041;
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
@@ -246,6 +358,7 @@ a:focus,
   margin-bottom: 10px;
 }
 .intro #quote{
+  font-weight: 400;
   font-style: italic;
   padding-top: 20px;
 }
@@ -281,7 +394,7 @@ header .intro-text {
   padding: 100px 0;
 }
 #about h3 {
-  font-size: 22px;
+  font-size: 32px;
   margin: 0 0 20px;
 }
 #about h2 {
