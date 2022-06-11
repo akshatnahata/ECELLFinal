@@ -9,14 +9,13 @@ export const Header = (props) => {
                 <h1>
                   {props.data ? props.data.title : 'Loading'}
                   <br/>
-                  (E - Cell)
+                  {/* {props.data ? props.data.subtitle : 'Loading' } */}
                   <span></span>
                 </h1>
-                <p>{props.data ? props.data.paragraph : 'Loading'}</p>
-                <p>{props.data ? props.data.paragraph2 : 'Loading'}</p>
-
+                <p id="IITI">{props.data ? props.data.paragraph : 'Loading'}</p>
+                <p id="quote">"{props.data ? props.data.paragraph2 : 'Loading'}"</p>
                 <a
-                  href='#features'
+                  href='#about'
                   className='btn btn-custom btn-lg page-scroll'
                 >
                   Learn More

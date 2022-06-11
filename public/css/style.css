@@ -216,7 +216,7 @@ a:focus,
   -o-background-size: cover;
 }
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background: #00000021;
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
@@ -229,7 +229,7 @@ a:focus,
 }
 .intro h1 span {
   font-weight: 800;
-  color: #5ca9fb;
+  color: #5ea8f7;
 }
 .intro p {
   color: #fff;
@@ -239,14 +239,27 @@ a:focus,
   margin: 0 auto;
   margin-bottom: 60px;
 }
+.intro #IITI{
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.intro #quote{
+  font-style: italic;
+  padding-top: 20px;
+}
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 250px;
   padding-bottom: 200px;
   text-align: center;
 }
 /* Features Section */
 #features, #team {
   background: #f6f6f6;
+}
+#features{
+  padding: 50px 0px 50px 0px; 
 }
 #features i.fa {
   font-size: 38px;
@@ -259,6 +272,9 @@ header .intro-text {
   border-radius: 50%;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+#features #desc{
+  text-align: justify;
 }
 /* About Section */
 #about {
