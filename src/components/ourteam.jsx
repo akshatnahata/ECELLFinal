@@ -22,17 +22,17 @@ export const Ourteam = (props) => {
                   <h6>{d.res}</h6>
                   <div class="skills">
                     <ul>
-                      <a href={d.facebook ? d.facebook : "/"}>
+                      <a target="_blank" href={d.facebook ? d.facebook : "/"}>
                         <li>
                           <i className="fa fa-facebook"></i>
                         </li>
                       </a>
-                      <a href={d.twitter ? d.twitter : "/"}>
+                      <a target="_blank" href={d.twitter ? d.twitter : "/"}>
                         <li>
                           <i className="fa fa-twitter"></i>
                         </li>
                       </a>
-                      <a href={d.youtube ? d.youtube : "/"}>
+                      <a target="_blank" href={d.youtube ? d.youtube : "/"}>
                         <li>
                           <i className="fa fa-youtube"></i>
                         </li>

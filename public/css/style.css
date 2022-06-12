@@ -339,7 +339,33 @@ a:focus,
   -o-background-size: cover;
 }
 .intro .overlay {
-  background: #00000041;
+  background: #00000081;
+}
+#header .social-media-list {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  /* display: flex; */
+}
+.social-media-list li {
+	/* border: 1px solid #f8f8fb; */
+  color: white;
+	border-radius: 15%;
+  width: 40px;
+  height: 40px;
+	font-size: 30px;
+	margin: 0px 10px 10px 0px;
+	/* padding: 9px; */
+  transition: all 100ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.social-media-list li:hover {
+	/* background-color: white; */
+  color: #5ca9fb;
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;

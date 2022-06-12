@@ -3,7 +3,11 @@
     "title": "Entrepreneurship Cell",
     "subtitle": "( E - CELL )",
     "paragraph": "Indian Institute of Technology, Indore",
-    "paragraph2": "Spreading the spirit of Entrepreneurship"
+    "paragraph2": "Spreading the spirit of Entrepreneurship",
+    "facebook": "https://www.facebook.com/sesciiti/",
+    "twitter": "https://twitter.com/sesciiti",
+    "instagram": "https://www.instagram.com/ecelliitindore/",
+    "linkedin" : "https://www.linkedin.com/company/sesc-iiti/"
 
   },
   "About": {
@@ -128,7 +132,8 @@
     "email": "ecell@iiti.ac.in",
     "facebook": "https://www.facebook.com/sesciiti/",
     "twitter": "https://twitter.com/sesciiti",
-    "youtube": "youtube.com"
+    "instagram": "https://www.instagram.com/ecelliitindore/",
+    "linkedin" : "https://www.linkedin.com/company/sesc-iiti/"
   },
   "Features": [
     {
