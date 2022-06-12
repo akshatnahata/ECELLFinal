@@ -220,7 +220,7 @@ a:focus,
 
 /* Cards */
 #ourteam {
-  margin-top: 100px;
+  margin-top: 70px;
   transition: all 100ms;
 }
 
@@ -228,6 +228,14 @@ a:focus,
 	box-sizing: border-box;
 }
 
+#ourteam .container {
+  padding: 50px 120px;
+  width: 100%;
+}
+
+#ourteam .container.odd {
+  background-color: rgb(243, 243, 243);
+}
 
 #ourteam h3 {
   color: #f0f1f7;
@@ -337,7 +345,35 @@ a:focus,
 	background-color: white;
   color: #5ca9fb;
 }
-
+#ourteam .intro-ourteam {
+  display: table;
+  width: 100%;
+  padding: 0;
+  background: url(../img/ENGEN-01.jpg) center center no-repeat;
+  background-color: #e5e5e5;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+#ourteam .overlay-ourteam {
+  background: #00000059;
+}
+#ourteam .intro-ourteam h1 {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+#ourteam .intro-text {
+  padding-top: 140px;
+  padding-bottom: 130px;
+  text-align: center;
+}
 
 /* Header Section */
 .intro {
