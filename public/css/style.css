@@ -581,6 +581,16 @@ header .intro-text {
 #team h4 {
   margin: 5px 0;
 }
+#team .container{
+  display: flex;
+  flex-direction: column;
+}
+#team #row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 #team .team-img {
   width: 240px;
 }
