@@ -332,6 +332,7 @@ a:focus,
   padding: 0;
   background: url(../img/header-bg.jpg) center center no-repeat;
   background-color: #e5e5e5;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
