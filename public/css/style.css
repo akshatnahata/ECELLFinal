@@ -206,7 +206,7 @@ a:focus,
 
 /* Cards */
 #ourteam {
-  margin: 100px;
+  margin-top: 100px;
   transition: all 100ms;
 }
 
@@ -218,11 +218,14 @@ a:focus,
 #ourteam h3 {
   color: #f0f1f7;
 	margin: 10px 0;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 #ourteam h6 {
 	margin: 5px 0;
-	text-transform: uppercase;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 #ourteam p {
@@ -236,13 +239,14 @@ a:focus,
 } */
 #ourteam .card-container {
   display: inline-block;
-	background-color: #231E39;
+	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	border-radius: 5px;
 	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
 	color: #f0f1f7;
-	padding-top: 20px;
+	padding: 40px 0px 40px 0px;
 	position: relative;
 	width: 250px;
+  height: 330px;
 	max-width: 100%;
 	text-align: center;
   margin:40px 20px;
@@ -267,10 +271,11 @@ a:focus,
 }
 
 #ourteam .card-container .round {
-	border: 1px solid #03BFCB;
 	border-radius: 50%;
-	padding: 7px;
-  max-width: 160px;
+  border: 2px solid rgba(250, 247, 247, 0.79);
+  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+  max-width: 140px;
+  margin-bottom: 15px;
 }
 
 #ourteam button.primary {
@@ -289,7 +294,6 @@ a:focus,
 }
 
 #ourteam .skills {
-	background-color: #1F1A36;
 	text-align: center;
 	padding: 15px;
 	margin-top: 3px;
@@ -303,14 +307,14 @@ a:focus,
 
 #ourteam .skills ul li {
 	border: 1px solid #f8f8fb;
-  
+  color: white;
 	border-radius: 50%;
 	display: inline-block;
-  width: 35px;
-  height: 35px;
+  width: 36px;
+  height: 36px;
 	font-size: 12px;
-	margin: 0px 7px 7px 0px;
-	padding: 7px;
+	margin: 0px 15px 15px 0px;
+	padding: 9px;
   transition: all 100ms;
 }
 
@@ -586,7 +590,8 @@ header .intro-text {
   width: fit-content;
 }
 #team .mentor img{
-  border-radius: 50%;
+  border-radius: 5%;
+  box-shadow: rgba(51, 51, 51, 0.418) 0 0 5px 3px;
   width: 220px;
   height: 220px;
 }
@@ -617,7 +622,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: #231E39;
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
