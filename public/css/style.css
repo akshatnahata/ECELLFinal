@@ -1,3 +1,17 @@
+::-webkit-scrollbar {
+  width: 8px;
+}
+  ::-webkit-scrollbar-track {
+  background: #fefefe; 
+}
+  ::-webkit-scrollbar-thumb {
+  background: #888; 
+    border-radius:10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  
+  background: #555; 
+} 
 body,
 html {
   font-family: "Open Sans", sans-serif;
