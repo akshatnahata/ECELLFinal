@@ -249,14 +249,9 @@ a:focus,
 }
 
 #ourteam .fa{
-  color: #f5f5ff;
+  padding: auto;
   font-size: 16px;
   transition: all 100ms;
-}
-
-#ourteam .fa:hover{
-  font-size: 20px;
-  color: #6ca3de;
 }
 
 #ourteam .card-container .pro {
@@ -307,13 +302,24 @@ a:focus,
 }
 
 #ourteam .skills ul li {
-	border: 1px solid #2D2747;
-	border-radius: 2px;
+	border: 1px solid #f8f8fb;
+  
+	border-radius: 50%;
 	display: inline-block;
+  width: 35px;
+  height: 35px;
 	font-size: 12px;
-	margin: 0 7px 7px 0;
+	margin: 0px 7px 7px 0px;
 	padding: 7px;
+  transition: all 100ms;
 }
+
+
+#ourteam .skills ul li:hover {
+	background-color: white;
+  color: #5ca9fb;
+}
+
 
 /* Header Section */
 .intro {
@@ -577,6 +583,12 @@ header .intro-text {
 #team .mentor{
   display: flex;
   justify-content: center;
+  width: fit-content;
+}
+#team .mentor img{
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
 }
 #team h4 {
   margin: 5px 0;
