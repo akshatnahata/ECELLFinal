@@ -488,7 +488,7 @@ header .intro-text {
   background: #f6f6f6;
 }
 #features{
-  padding: 50px 0px 50px 0px; 
+  padding: 50px 0px 100px 0px; 
 }
 #features i.fa {
   font-size: 38px;
@@ -604,12 +604,13 @@ header .intro-text {
 }
 /* Portfolio - Previous Partener Section */
 #portfolio {
-  padding: auto 0;
+  padding: auto 0 ;
+  padding-bottom: 50px;
 }
 .portfolio-item {
   margin: auto;
   padding: 0;
-  width: 300px;
+  width: 250px;
   height: auto;
 }
 .partners-title {

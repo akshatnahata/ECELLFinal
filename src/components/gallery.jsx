@@ -5,7 +5,7 @@ export const Gallery = (props) => {
     <div id='portfolio' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2 className="partners-title" >Our Previous Partners:</h2>
+          <h2 className="partners-title" >Our Previous Partners</h2>
           {/* <p>
             We were glad to collaborate with the following Partners to make our events a Grand Success...
           </p> */}
