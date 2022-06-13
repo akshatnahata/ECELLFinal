@@ -303,8 +303,8 @@ a:focus,
 } */
 #ourteam .card-container {
   display: inline-block;
-	background: linear-gradient(to bottom, #00AEEF 30%, #1181B1 100%);
-	/* background: linear-gradient(to top, #00AEEF 67%, #bcdfec 33%); */
+	background: linear-gradient(to top, #00AEEF 67%, #bcdfec 33%);
+	background: linear-gradient(to bottom, #00182C 33%, #00AEEF 20%, #1181B1 67%);
 
 	border-radius: 5px;
 	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
@@ -316,8 +316,13 @@ a:focus,
 	max-width: 100%;
 	text-align: center;
   margin:40px 20px;
+  transition: 00.5s ease-in-out;
 }
 #ourteam .card-container:hover {
+	/* background: linear-gradient(to top, #00AEEF 67%, #bcdfec 33%); */
+	background: linear-gradient(to bottom, #00AEEF 30%, #1181B1 100%);
+
+
   transform: scale(1.1);
 }
 #ourteam .fa{
