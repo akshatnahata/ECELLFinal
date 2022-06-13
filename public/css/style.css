@@ -588,31 +588,30 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
-/* Portfolio Section */
+/* Portfolio - Previous Partener Section */
 #portfolio {
-  padding: 100px 0;
+  padding: auto 0;
 }
 .portfolio-item {
-  margin: 1px -15px 0 -14px;
+  margin: auto;
   padding: 0;
   width: 300px;
   height: auto;
 }
-.portfolio-item .hover-bg {
+.partners-title {
+  padding-top: 50px;
+}
+/* .portfolio-item .hover-bg {
   overflow: hidden;
   position: relative;
   margin: 0;
-}
-.hover-bg .hover-text {
+} */
+/* .hover-bg .hover-text {
   position: absolute;
   text-align: center;
   margin: 0 auto;
   color: #fff;
-  background: linear-gradient(
-    to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
-  );
+  background: rgba(0, 0, 0, 0.336);
   padding: 30% 0 0;
   height: 100%;
   width: 100%;
@@ -629,16 +628,16 @@ header .intro-text {
   letter-spacing: 1px;
   font-weight: 500;
   text-transform: uppercase;
-}
-.hover-bg:hover .hover-text > h4 {
+} */
+/* .hover-bg:hover .hover-text > h4 {
   opacity: 1;
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateY(0);
   transform: translateY(0);
-}
-.hover-bg:hover .hover-text {
+} */
+/* .hover-bg:hover .hover-text {
   opacity: 1;
-}
+} */
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;

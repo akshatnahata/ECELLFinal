@@ -1,24 +1,25 @@
-export const Image = ({ title, largeImage, smallImage }) => {
+import { Link } from "react-router-dom"
+
+export const Image = ({ title, link, image }) => {
   return (
     <div className='portfolio-item' >
-      <div className='hover-bg'>
-        {' '}
+      {/* <div className='hover-bg'> */}
+        {/* {' '} */}
         <a
-          href={largeImage}
+          href={link}
           title={title}
-          data-lightbox-gallery='gallery1'
-          target='blank'
+          target='_blank'
         >
-          <div className='hover-text'>
+          {/* <div className='hover-text'>
             <h4>{title}</h4>
-          </div>
+          </div> */}
           <img
-            src={smallImage}
+            src={image}
             className='img-responsive'
             alt={title}
           />{' '}
         </a>{' '}
-      </div>
+      {/* </div> */}
     </div>
   )
 }
