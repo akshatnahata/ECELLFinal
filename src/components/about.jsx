@@ -4,8 +4,8 @@ export const About = (props) => {
   return (
     <div id="about">
       <div className="container">
-        <div className="row">
-          <div className="col-xs-12 col-md-6">
+        <div className="row alignpho">
+          <div className="col-xs-12 col-md-6 imageabout">
             <Fade bottom>
               <img src="img/ENGEN-01.jpg" className="img-responsive" alt="" />
             </Fade>

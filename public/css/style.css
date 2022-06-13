@@ -272,6 +272,27 @@ a:focus,
 #ourteam .container.odd {
   background-color: rgb(243, 243, 243);
 }
+/* #ourteam .ciieiroff {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} */
+#ourteam .ciieir {
+  padding: 0px 20px;
+}
+#ourteam .OfficeName {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+#ourteam .OfficePost {
+  text-transform: uppercase;
+  margin: auto;
+  /* font-size: 18px; */
+  /* margin-top: 10px; */
+}
 
 #ourteam h2 {
   display: block;
@@ -303,8 +324,10 @@ a:focus,
 } */
 #ourteam .card-container {
   display: inline-block;
-	background: linear-gradient(to top, #00AEEF 67%, #bcdfec 33%);
 	background: linear-gradient(to bottom, #00182C 33%, #00AEEF 20%, #1181B1 67%);
+	background: linear-gradient(to top, #00AEEF 67%, #bcdfec 33%);
+	background: linear-gradient(to bottom, #00AEEF 30%, #1181B1 100%);
+
 
 	border-radius: 5px;
 	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
@@ -321,6 +344,8 @@ a:focus,
 #ourteam .card-container:hover {
 	/* background: linear-gradient(to top, #00AEEF 67%, #bcdfec 33%); */
 	background: linear-gradient(to bottom, #00AEEF 30%, #1181B1 100%);
+	background: linear-gradient(to bottom, #00182C 33%, #00AEEF 20%, #1181B1 67%);
+
 
 
   transform: scale(1.1);
@@ -531,16 +556,16 @@ header .intro-text {
 #about {
   padding: 100px 0;
 }
-#about h3 {
+#about h3, #aboutnew h3 {
   font-size: 32px;
   margin: 0 0 20px;
 }
-#about h2 {
+#about h2, #aboutnew h2 {
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
-#about h2::after {
+#about h2::after, #aboutnew h2::after {
   position: absolute;
   content: "";
   background: linear-gradient(to right, #00AEEF 0%, #1181B1 100%);
@@ -549,13 +574,13 @@ header .intro-text {
   bottom: 0;
   left: 0;
 }
-#about .about-text li {
+#about .about-text li, #aboutnew .about-text li {
   margin-bottom: 6px;
   margin-left: 6px;
   list-style: none;
   padding: 0;
 }
-#about .about-text li:before {
+#about .about-text li:before, #aboutnew .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
   color: #00AEEF;
@@ -563,18 +588,29 @@ header .intro-text {
   font-weight: 300;
   padding-right: 8px;
 }
-#about img {
+#about img, #aboutnew img {
   width: 520px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   background: #fff;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
-#about p {
+#about p, #aboutnew p {
   line-height: 24px;
   margin: 30px 0;
 }
-/* Services Section */
+#about .imageabout, #aboutnew .imageabout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+#about .alignpho, #aboutnew .alignpho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ /* Services Section */
 .service {
   margin: auto;
   margin-bottom: 40px;
