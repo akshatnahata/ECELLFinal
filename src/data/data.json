@@ -58,7 +58,7 @@
     {
       "icon": "fa fa-wordpress",
       "name": "E-Summit",
-      "text": "It's a conclave of competitions, workshops, panel discussions and speeches from the biggest names in the world of business"
+      "text": "E-Summit is the flagship event conducted by E-Cell, IIT Indore. It's a conclave of competitions, workshops, panel discussions and speeches from the biggest names in the world of business."
     },
     {
       "icon": "fa fa-cart-arrow-down",
@@ -79,12 +79,8 @@
       "icon": "fa fa-plane",
       "name": "Entrepreneurship Awareness Camp",
       "text": "EAC was conducted by E-Cell, IIT Indore to spread the entrepreneurial awareness among the students."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "F",
-      "text": "U"
     }
+
   ],
   "Testimonials": [
     {

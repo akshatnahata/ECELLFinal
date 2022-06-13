@@ -4,14 +4,11 @@ export const Services = (props) => {
       <div className='container'>
         <div className='section-title'>
           <h2>What we do?</h2>
-          <p>
-          E-Summit is the flagship event conducted by E-Cell, IIT Indore. It's a conclave of competitions, workshops, panel discussions and speeches from the biggest names in the world of business.
-          </p>
         </div>
         <div className='row'>
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className='col-md-4'>
+                <div key={`${d.name}-${i}`} className='service col-md-4'>
                   {' '}
                   <i className={d.icon}></i>
                   <div className='service-desc'>
