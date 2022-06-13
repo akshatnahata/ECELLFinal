@@ -86,6 +86,7 @@ hr {
   border: 0;
 }
 /* Navigation */
+
 .logo {
   width: 30px;
   height: auto;
@@ -126,7 +127,7 @@ hr {
   text-transform: uppercase;
   color: #555;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 700;
   padding: 8px 2px;
   border-radius: 0;
   margin: 0px 10px 0;
@@ -238,7 +239,17 @@ a:focus,
   outline-offset: none;
 }
 
-/* Team Section */
+/* Team/members Section */
+.card--badge {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  background-color: white;
+  color: #1181b1;
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
 .team-hero-year {
   display: block;
   font-size: 40px;

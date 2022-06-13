@@ -153,7 +153,7 @@ export const Contact = (props) => {
         </div>
         <div className='container text-center' id="copyright">
           <p>
-            &copy; 2022 <a href="#page-top">E-Cell IIT Indore</a> | All Rights Reserved | Developed with ❤ by the <a href="#ourteam"> E-Cell TEAM </a>
+            &copy; 2022 <a href="#page-top">E-Cell IIT Indore</a> | All Rights Reserved | Developed with ❤ by the <a href="/members"> E-Cell TEAM </a>
           </p>
         </div>
       </div>

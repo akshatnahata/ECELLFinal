@@ -37,7 +37,7 @@ export const Ourteam = (props) => {
           {props.data
             ? props.data.map((d, i) => (
               <div class="card-container">
-                  {/* <span class="pro">PRO</span> */}
+                  {d.isHead && <div className="card--badge">Head</div>}
                   <img class="round" src={d.img} alt="user" />
                   <Bounce right>
                   <h3>{d.name}</h3>
@@ -89,7 +89,7 @@ export const Ourteam = (props) => {
           {props.data
             ? props.data.map((d, i) => (
               <div class="card-container">
-                  {/* <span class="pro">PRO</span> */}
+                  {d.isHead && <div className="card--badge">Head</div>}
                   <img class="round" src={d.img} alt="user" />
                   <Bounce right>
                   <h3>{d.name}</h3>
@@ -141,7 +141,7 @@ export const Ourteam = (props) => {
           {props.data
             ? props.data.map((d, i) => (
               <div class="card-container">
-                  {/* <span class="pro">PRO</span> */}
+                  {d.isHead && <div className="card--badge">Head</div>}
                   <img class="round" src={d.img} alt="user" />
                   <Bounce right>
                   <h3>{d.name}</h3>

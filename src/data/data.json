@@ -160,7 +160,8 @@
       "res": "Sponsorship and Marketing",
       "facebook": "https://www.facebook.com/sesciiti/",
       "twitter": "https://twitter.com/sesciiti",
-      "youtube": "youtube.com"
+      "youtube": "youtube.com",
+      "isHead": true
     },
     {
       "img": "img/team/RishuPal.jpg",
@@ -168,7 +169,8 @@
       "res": "Sponsorship and Marketing",
       "facebook": "https://www.facebook.com/sesciiti/",
       "twitter": "https://twitter.com/sesciiti",
-      "youtube": "youtube.com"
+      "youtube": "youtube.com",
+      "isHead": false
     },
     {
       "img": "img/team/UtkarshKhairnar.jpg",
@@ -176,7 +178,8 @@
       "res": "Sponsorship and Marketing",
       "facebook": "https://www.facebook.com/sesciiti/",
       "twitter": "https://twitter.com/sesciiti",
-      "youtube": "youtube.com"
+      "youtube": "youtube.com",
+      "isHead": false
     },
     {
       "img": "img/team/DevendraAhirwar.jpg",
@@ -184,7 +187,8 @@
       "res": "Sponsorship and Marketing",
       "facebook": "https://www.facebook.com/sesciiti/",
       "twitter": "https://twitter.com/sesciiti",
-      "youtube": "youtube.com"
+      "youtube": "youtube.com",
+      "isHead": false
     },
     {
       "img": "img/team/AnubhavSingh.jpg",
@@ -192,7 +196,8 @@
       "res": "Sponsorship and Marketing",
       "facebook": "https://www.facebook.com/sesciiti/",
       "twitter": "https://twitter.com/sesciiti",
-      "youtube": "youtube.com"
+      "youtube": "youtube.com",
+      "isHead": false
     }
 
   ]
