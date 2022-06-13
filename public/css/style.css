@@ -295,7 +295,9 @@ a:focus,
 	text-align: center;
   margin:40px 20px;
 }
-
+#ourteam .card-container:hover {
+  transform: scale(1.1);
+}
 #ourteam .fa{
   padding: auto;
   font-size: 16px;
