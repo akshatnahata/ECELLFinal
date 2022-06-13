@@ -238,7 +238,7 @@ a:focus,
   outline-offset: none;
 }
 
-/* Team Cards */
+/* Team Section */
 .team-hero-year {
   display: block;
   font-size: 40px;
@@ -260,6 +260,12 @@ a:focus,
 
 #ourteam .container.odd {
   background-color: rgb(243, 243, 243);
+}
+
+#ourteam h2 {
+  display: block;
+  width: max-content;
+  margin: auto;
 }
 
 #ourteam h3 {
