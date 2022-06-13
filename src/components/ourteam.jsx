@@ -9,7 +9,8 @@ export const Ourteam = (props) => {
               <div className='col-md-8 col-md-offset-2 intro-text'>
                 <Fade bottom>
                   <h1>
-                    OUR TEAM
+                     E-CELL TEAM {' '}
+                     <span className="team-hero-year">2022-23</span>
                   </h1>
                 </Fade>
               </div>

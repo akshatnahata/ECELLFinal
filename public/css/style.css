@@ -238,7 +238,12 @@ a:focus,
   outline-offset: none;
 }
 
-/* Cards */
+/* Team Cards */
+.team-hero-year {
+  display: block;
+  font-size: 40px;
+  font-weight: 500;
+}
 #ourteam {
   margin-top: 70px;
   transition: all 100ms;
