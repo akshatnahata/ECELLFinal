@@ -30,28 +30,28 @@
   "Gallery": [
     {
       "title": "WittyFeed",
-      "largeImage": "http://ww7.wittyfeed.tv/",
-      "smallImage": "img/portfolio/wittyfeed.jpg"
+      "link": "http://ww7.wittyfeed.tv/",
+      "image": "img/portfolio/wittyfeed.jpg"
     },
     {
       "title": "Career360",
-      "largeImage": "https://www.careers360.com/",
-      "smallImage": "img/portfolio/career360.jpg"
+      "link": "https://www.careers360.com/",
+      "image": "img/portfolio/career360.jpg"
     },
     {
       "title": "Saavn",
-      "largeImage": "https://www.jiosaavn.com/",
-      "smallImage": "img/portfolio/saavn.jpg"
+      "link": "https://www.jiosaavn.com/",
+      "image": "img/portfolio/saavn.jpg"
     },
     {
       "title": "HackerEarth",
-      "largeImage": "https://www.hackerearth.com/",
-      "smallImage": "img/portfolio/hackerearth.jpg"
+      "link": "https://www.hackerearth.com/",
+      "image": "img/portfolio/hackerearth.jpg"
     },
     {
       "title": "Peopleist India",
-      "largeImage": "https://www.peopleist.in/",
-      "smallImage": "img/portfolio/peopleist.jpg"
+      "link": "https://www.peopleist.in/",
+      "image": "img/portfolio/peopleist.jpg"
     }
   ],
   "Services": [
