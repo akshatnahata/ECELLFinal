@@ -734,7 +734,7 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px;
+  padding: 100px 0 10px;
   background: #00182C;
   color: rgba(255, 255, 255, 0.75);
 }
@@ -859,10 +859,10 @@ label {
   background: #fff;
 }
 /* Footer Section*/
-#footer {
-  background: #f6f6f6;
-  padding: 30px 0;
+#copyright {
+  margin: 30px auto 0;
 }
+
 #footer p {
   color: #888;
   font-size: 14px;

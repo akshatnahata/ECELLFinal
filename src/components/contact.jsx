@@ -40,10 +40,10 @@ export const Contact = (props) => {
             <div className='row'>
               <div className='section-title'>
                 <h2>Get In Touch</h2>
-                <p>
-                  Please fill out the form below to send us an email and we will
+                {/* <p>
+                  Fill out the form below to send us an email and we will
                   get back to you as soon as possible.
-                </p>
+                </p> */}
               </div>
               <form name='sentMessage' validate onSubmit={handleSubmit}>
                 <div className='row'>
@@ -89,7 +89,7 @@ export const Contact = (props) => {
                   <p className='help-block text-danger'></p>
                 </div>
                 <div id='success'></div>
-                <button type='submit' className='btn btn-custom btn-lg'>
+                <button type='submit' id="email-btn" className='btn btn-custom btn-lg'>
                   Send Message
                 </button>
               </form>
@@ -151,11 +151,9 @@ export const Contact = (props) => {
             </div>
           </div>
         </div>
-      </div>
-      <div id='footer'>
-        <div className='container text-center'>
+        <div className='container text-center' id="copyright">
           <p>
-            &copy; 2022 E-Cell IIT Indore
+            &copy; 2022 <a href="#page-top">E-Cell IIT Indore</a> | All Rights Reserved | Developed with ❤ by the <a href="#ourteam"> E-Cell TEAM </a>
           </p>
         </div>
       </div>
