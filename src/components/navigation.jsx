@@ -1,7 +1,8 @@
+import Logo from "./icon.png"
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
-      <div className='container'>
+      <div className='container-nav'>
         <div className='navbar-header'>
           <button
             type='button'
@@ -16,7 +17,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='/#page-top'>
-                E-Cell IIT Indore
+                <img className="brandlogo" src={Logo}/>
           </a>{' '}
         </div>
 

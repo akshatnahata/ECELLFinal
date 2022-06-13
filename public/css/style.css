@@ -1,3 +1,4 @@
+/* colors : #5ca9fb #6372ff #231E39*/
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -94,12 +95,27 @@ hr {
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
+#menu .container-nav {
+  padding: 0px;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#menu .brandlogo {
+  height: 40px;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
@@ -109,7 +125,7 @@ hr {
   font-weight: 400;
   padding: 8px 2px;
   border-radius: 0;
-  margin: 9px 20px 0;
+  margin: 0px 10px 0;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
   display: block;
@@ -118,7 +134,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #1181B1 0%, #00AEEF 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -139,7 +155,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, #1181B1 0%, #00AEEF 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -166,7 +182,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #00AEEF 0%, #1181B1 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -180,8 +196,8 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-color: #00AEEF;
+  background-image: linear-gradient(to right, #00AEEF 0%, #1181B1 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -198,7 +214,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: #1181B1;
 }
 .btn:active,
 .btn.active {
@@ -261,7 +277,9 @@ a:focus,
 } */
 #ourteam .card-container {
   display: inline-block;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to bottom, #00AEEF 30%, #1181B1 100%);
+	/* background: linear-gradient(to top, #00AEEF 67%, #bcdfec 33%); */
+
 	border-radius: 5px;
 	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
 	color: #f0f1f7;
@@ -343,7 +361,7 @@ a:focus,
 
 #ourteam .skills ul li:hover {
 	background-color: white;
-  color: #5ca9fb;
+  color: #00AEEF;
 }
 #ourteam .intro-ourteam {
   display: table;
@@ -415,7 +433,7 @@ a:focus,
 
 .social-media-list li:hover {
 	/* background-color: white; */
-  color: #5ca9fb;
+  color: #00AEEF;
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
@@ -470,7 +488,7 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #1181B1 0%, #00AEEF 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #features #desc{
@@ -492,7 +510,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #00AEEF 0%, #1181B1 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -507,7 +525,7 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #5ca9fb;
+  color: #00AEEF;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
@@ -526,7 +544,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #1181B1 0%, #00AEEF 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -550,7 +568,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #1181B1 0%, #00AEEF 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -699,7 +717,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: #231E39;
+  background: #00182C;
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -841,5 +859,20 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+  #menu .container-nav {
+    display: block;
+  }
+  #header .social-media-list {
+    position: relative;
+    display: flex;
+    text-align: center;
+    
+  }
+  #header .overlay{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
