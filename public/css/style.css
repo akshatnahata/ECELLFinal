@@ -85,6 +85,10 @@ hr {
   border: 0;
 }
 /* Navigation */
+.logo {
+  width: 30px;
+  height: auto;
+}
 #menu {
   padding: 15px;
   transition: all 0.8s;
@@ -100,6 +104,9 @@ hr {
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
@@ -476,7 +483,7 @@ header .intro-text {
 #features #desc{
   text-align: justify;
 }
-/* About Section */
+/* About-Vision Section */
 #about {
   padding: 100px 0;
 }
