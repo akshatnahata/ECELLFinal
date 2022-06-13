@@ -16,11 +16,11 @@ export const About = (props) => {
                 About Us</Fade></h2>
               <p><Fade right>{props.data ? props.data.paragraph : "loading..."}
               </Fade></p>
-              <h3>
+              <h2>
                 <Fade left cascade>
                   Vision
                 </Fade>
-              </h3>
+              </h2>
               <p style={{ fontStyle: "italic" }}>
                 <Fade right>
                   {props.data ? props.data.vision : "loading..."}
