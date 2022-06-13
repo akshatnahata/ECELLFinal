@@ -1,7 +1,7 @@
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
-      <div className='container'>
+      <div className='container-nav'>
         <div className='navbar-header'>
           <button
             type='button'
@@ -16,7 +16,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='/#page-top'>
-                <img className="logo" src="img/ecell-logo.png" />
+                <img className="brandlogo" src="img/icon.png"/>
           </a>{' '}
         </div>
 
