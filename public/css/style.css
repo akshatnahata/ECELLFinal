@@ -532,7 +532,7 @@ header .intro-text {
   background: #f6f6f6;
 }
 #features{
-  padding: 50px 0px 100px 0px; 
+  padding: 70px 0px; 
 }
 #features i.fa {
   font-size: 38px;
@@ -549,7 +549,7 @@ header .intro-text {
 #features #desc{
   text-align: justify;
 }
-/* About-Vision Section */
+/* About us -Vision Section */
 #about {
   padding: 100px 0;
 }
@@ -607,7 +607,7 @@ header .intro-text {
   justify-content: space-between;
   align-items: center;
 }
- /* Services Section */
+ /* Services - What we do Section */
 .service {
   margin: auto;
   margin-bottom: 40px;

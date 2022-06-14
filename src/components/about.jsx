@@ -13,7 +13,8 @@ export const About = (props) => {
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
               <h2><Fade left cascade>
-                About Us</Fade></h2>
+                About Us</Fade>
+              </h2>
               <p><Fade right>{props.data ? props.data.paragraph : "loading..."}
               </Fade></p>
               <h2>
@@ -21,11 +22,11 @@ export const About = (props) => {
                   Vision
                 </Fade>
               </h2>
-              <p style={{ fontStyle: "italic" }}>
+              <i>
                 <Fade right>
                   {props.data ? props.data.vision : "loading..."}
                 </Fade>
-              </p>
+              </i>
               {/* <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>
