@@ -527,14 +527,14 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
-/* Features Section */
-#features, #team {
+/* events Section */
+#events, #mentor {
   background: #f6f6f6;
 }
-#features{
+#events{
   padding: 70px 0px; 
 }
-#features i.fa {
+#events i.fa {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
@@ -546,7 +546,7 @@ header .intro-text {
   background: linear-gradient(to right, #1181B1 0%, #00AEEF 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
-#features #desc{
+#events #desc{
   text-align: justify;
 }
 /* About us -Vision Section */
@@ -607,25 +607,25 @@ header .intro-text {
   justify-content: space-between;
   align-items: center;
 }
- /* Services - What we do Section */
+ /*  What we do Section */
 .service {
   margin: auto;
   margin-bottom: 40px;
 }
 
-#services {
+#whatWeDo {
   padding: 100px 0;
   background: linear-gradient(to right, #1181B1 0%, #00AEEF 100%);
   color: #fff;
 }
-#services .service-desc {
+#whatWeDo .service-desc {
   margin: 10px 10px 20px;
 }
-#services h2 {
+#whatWeDo h2 {
   color: #fff;
   margin-top: -30px;
 }
-#services .section-title h2::after {
+#whatWeDo .section-title h2::after {
   position: absolute;
   content: "";
   background: rgba(255, 255, 255, 0.3);
@@ -635,7 +635,7 @@ header .intro-text {
   margin-left: -30px;
   left: 50%;
 }
-#services i.fa {
+#whatWeDo i.fa {
   font-size: 42px;
   width: 120px;
   height: 120px;
@@ -645,24 +645,24 @@ header .intro-text {
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
-#services h3 {
+#whatWeDo h3 {
   font-weight: 500;
   padding: 5px 0;
   color: #fff;
 }
-#services p {
+#whatWeDo p {
   color: rgba(255, 255, 255, 0.75);
   text-align: justify;
 }
-#services .service-desc {
+#whatWeDo .service-desc {
   margin-bottom: 40px;
 }
-/* Portfolio - Previous Partener Section */
-#portfolio {
+/*  Previous Partener Section */
+#partners {
   padding: auto 0 ;
   padding-bottom: 50px;
 }
-.portfolio-item {
+.partners-item {
   margin: auto;
   padding: 0;
   width: 250px;
@@ -671,7 +671,7 @@ header .intro-text {
 .partners-title {
   padding-top: 50px;
 }
-/* .portfolio-item .hover-bg {
+/* .partners-item .hover-bg {
   overflow: hidden;
   position: relative;
   margin: 0;
@@ -748,42 +748,42 @@ header .intro-text {
   font-weight: 600;
   color: #666;
 }
-/* Team Section */
-#team {
+/* Mentors Section */
+#mentors {
   padding: 100px 0;
 }
-#team .mentor{
+#mentors .mentor{
   display: flex;
   justify-content: center;
   width: fit-content;
 }
-#team .mentor img{
+#mentors .mentor img{
   border-radius: 5%;
   box-shadow: rgba(51, 51, 51, 0.418) 0 0 5px 3px;
   width: 220px;
   height: 220px;
 }
-#team h4 {
+#mentors h4 {
   margin: 5px 0;
 }
-#team .container{
+#mentors .container{
   display: flex;
   flex-direction: column;
 }
-#team #row{
+#mentors #row{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
-#team .team-img {
+#mentors .mentor-img {
   width: 240px;
 }
-#team .thumbnail {
+#mentors .thumbnail {
   background: transparent;
   border: 0;
 }
-#team .thumbnail .caption {
+#mentors .thumbnail .caption {
   padding: 10px 0 0;
   color: #888;
 }

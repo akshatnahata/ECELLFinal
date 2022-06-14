@@ -1,6 +1,6 @@
-export const Team = (props) => {
+export const Mentors = (props) => {
   return (
-    <div id='team' className='text-center'>
+    <div id='mentors' className='text-center'>
       <div className='container'>
         <div className='col-md-8 col-md-offset-2 section-title'>
           <h2>Our Investors and Mentors</h2>
@@ -14,7 +14,7 @@ export const Team = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className='col-md-3 col-sm-6 mentor'>
                   <div className='thumbnail'>
-                    <img src={d.img} alt='...' className='team-img' />
+                    <img src={d.img} alt='...' className='mentor-img' />
                     <div className='caption'>
                       <h4>{d.name}</h4>
                       <p>{d.job}</p>

@@ -1,6 +1,6 @@
-export const Services = (props) => {
+export const WhatWeDo = (props) => {
   return (
-    <div id='services' className='text-center'>
+    <div id='whatWeDo' className='text-center'>
       <div className='container'>
         <div className='section-title'>
           <h2>What we do?</h2>

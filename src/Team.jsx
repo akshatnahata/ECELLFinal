@@ -20,7 +20,7 @@ const Member = () => {
   return (
     <div>
       <Navigation />
-      <Ourteam data={landingPageData.members} />
+      <Ourteam data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
     </div>
   );

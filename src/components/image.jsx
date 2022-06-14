@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export const Image = ({ title, link, image }) => {
   return (
-    <div className='portfolio-item' >
+    <div className='partners-item' >
       {/* <div className='hover-bg'> */}
         {/* {' '} */}
         <a

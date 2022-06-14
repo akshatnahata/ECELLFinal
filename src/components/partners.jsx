@@ -1,8 +1,8 @@
 import { Image } from "./image";
 
-export const Gallery = (props) => {
+export const Partners = (props) => {
   return (
-    <div id='portfolio' className='text-center'>
+    <div id='partners' className='text-center'>
       <div className='container'>
         <div className='section-title'>
           <h2 className="partners-title" >Our Previous Partners</h2>
@@ -11,7 +11,7 @@ export const Gallery = (props) => {
           </p> */}
         </div>
         <div className='row'>
-          <div className='portfolio-items'>
+          <div className='partners-items'>
             {props.data
               ? props.data.map((d, i) => (
                 <div key={`${d.title}-${i}`} className='col-sm-6 col-md-4 col-lg-4'>

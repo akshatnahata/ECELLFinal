@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
-import { Features } from "./components/features";
+import { Events } from "./components/events";
 import { About } from "./components/about";
-import { Services } from "./components/services";
-import { Gallery } from "./components/gallery";
-import { Testimonials } from "./components/testimonials";
-import { Team } from "./components/Team";
+import { WhatWeDo } from "./components/whatWeDo";
+import { Partners } from "./components/partners";
+// import { Testimonials } from "./components/testimonials";
+import { Mentors } from "./components/mentors";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
@@ -28,11 +28,11 @@ const App = () => {
       <Navigation />
       <Header data={landingPageData.Header} />
       <About data={landingPageData.About} />
-      <Features data={landingPageData.Features} />
-      <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery}/>
+      <Events data={landingPageData.Events} />
+      <WhatWeDo data={landingPageData.WhatWeDo} />
+      <Partners data={landingPageData.Partners}/>
       {/* <Testimonials data={landingPageData.Testimonials} /> */}
-      <Team data={landingPageData.Team} />
+      <Mentors data={landingPageData.Mentors} />
       <Contact data={landingPageData.Contact} />
     </div>
   );
