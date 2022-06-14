@@ -327,8 +327,6 @@ a:focus,
 	background: linear-gradient(to bottom, #00182C 33%, #00AEEF 20%, #1181B1 67%);
 	background: linear-gradient(to top, #00AEEF 67%, #bcdfec 33%);
 	background: linear-gradient(to bottom, #00AEEF 30%, #1181B1 100%);
-
-
 	border-radius: 5px;
 	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
 	color: #f0f1f7;
@@ -343,11 +341,9 @@ a:focus,
 }
 #ourteam .card-container:hover {
 	/* background: linear-gradient(to top, #00AEEF 67%, #bcdfec 33%); */
-	background: linear-gradient(to bottom, #00AEEF 30%, #1181B1 100%);
-	background: linear-gradient(to bottom, #00182C 33%, #00AEEF 20%, #1181B1 67%);
-
-
-
+	/* background: linear-gradient(to bottom, #00AEEF 30%, #1181B1 100%);
+	background: linear-gradient(to bottom, #00182C 33%, #00AEEF 20%, #1181B1 67%); */
+  transition: 0.3s all;
   transform: scale(1.1);
 }
 #ourteam .fa{
@@ -369,6 +365,7 @@ a:focus,
 }
 
 #ourteam .card-container .round {
+  background-color: inherit;
 	border-radius: 50%;
   border: 2px solid rgba(250, 247, 247, 0.79);
   box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
