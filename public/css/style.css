@@ -618,6 +618,12 @@ header .intro-text {
   background: linear-gradient(to right, #1181B1 0%, #00AEEF 100%);
   color: #fff;
 }
+#whatWeDo .row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: auto;
+  justify-content: center;
+}
 #whatWeDo .service-desc {
   margin: 10px 10px 20px;
 }
@@ -666,6 +672,12 @@ header .intro-text {
   padding: 0;
   width: 250px;
   height: auto;
+}
+#partners .partners-row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .partners-title {
   padding-top: 50px;
@@ -750,6 +762,7 @@ header .intro-text {
 /* Mentors Section */
 #mentors {
   padding: 100px 0;
+  background-color: #f6f6f6;
 }
 #mentors .mentor{
   display: flex;

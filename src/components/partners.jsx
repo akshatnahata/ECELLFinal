@@ -11,7 +11,7 @@ export const Partners = (props) => {
           </p> */}
         </div>
         <div className='row'>
-          <div className='partners-items'>
+          <div className='partners-items partners-row'>
             {props.data
               ? props.data.map((d, i) => (
                 <div key={`${d.title}-${i}`} className='col-sm-6 col-md-4 col-lg-4'>
