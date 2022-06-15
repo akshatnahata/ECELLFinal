@@ -52,6 +52,46 @@ export const Ourteam = (props) => {
           </div>
         </div>
       </div>
+      {/* Secretary - joint Secretary */}
+      {/* <div className="container">
+        <Fade>
+          <div id="row">
+            {props.data
+              ? props.data.map((d, i) => (
+                <div class="card-container">
+                  {d.isHead && <div className="card--badge">Head</div>}
+                  <img class="round" src={d.img} alt="user" />
+                  <Bounce right>
+                    <h3>{d.name}</h3>
+                    <h6>{d.res}</h6>
+                  </Bounce>
+                  <div class="skills">
+                    <Zoom cascade>
+                      <ul>
+                        <a target="_blank" href={d.facebook ? d.facebook : "/"}>
+                          <li>
+                            <i className="fa fa-facebook"></i>
+                          </li>
+                        </a>
+                        <a target="_blank" href={d.twitter ? d.twitter : "/"}>
+                          <li>
+                            <i className="fa fa-twitter"></i>
+                          </li>
+                        </a>
+                        <a target="_blank" href={d.youtube ? d.youtube : "/"}>
+                          <li>
+                            <i className="fa fa-youtube"></i>
+                          </li>
+                        </a>
+                      </ul>
+                    </Zoom>
+                  </div>
+                </div>
+              ))
+              : "loading"}
+          </div>
+        </Fade>
+      </div> */}
       <div className="container odd">
         <div
           className="col-md-8 col-md-offset-2 section-title"
