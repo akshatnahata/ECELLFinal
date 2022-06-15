@@ -91,7 +91,6 @@ hr {
   width: 30px;
   height: auto;
 }
-
 #menu {
   padding: 15px;
   transition: all 0.8s;
@@ -121,8 +120,7 @@ hr {
   align-items: center;
 }
 #menu .brandlogo {
-  height: 90px;
-  padding-top: 5px;
+  height: 40px;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
@@ -178,7 +176,7 @@ hr {
   background-color: #608dfd;
 }
 .section-title {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 .section-title h2 {
   position: relative;
@@ -534,7 +532,7 @@ header .intro-text {
   background: #f6f6f6;
 }
 #events{
-  padding: 70px 0px; 
+  padding: 100px 0px 50px 0px; 
 }
 #events i.fa {
   font-size: 38px;
@@ -616,7 +614,7 @@ header .intro-text {
 }
 
 #whatWeDo {
-  padding: 100px 0;
+  padding: 150px 0 50px 0px;
   background: linear-gradient(to right, #1181B1 0%, #00AEEF 100%);
   color: #fff;
 }
@@ -661,8 +659,7 @@ header .intro-text {
 }
 /*  Previous Partener Section */
 #partners {
-  padding: auto 0 ;
-  padding-bottom: 50px;
+  padding: 60px 0px 50px 0px;
 }
 .partners-item {
   margin: auto;
@@ -794,6 +791,16 @@ header .intro-text {
   padding: 100px 0 10px;
   background: #00182C;
   color: rgba(255, 255, 255, 0.75);
+}
+#contact #msg{
+  width: max-content;
+  margin: auto;
+  background-color: #65C18C;
+  padding: 5px 10px 7px 10px;
+  border-radius: 10px;
+  color: rgb(245, 237, 237);
+  font-size: 17px;
+  font-weight: 400;
 }
 #contact .section-title {
   margin-bottom: 40px;
@@ -932,9 +939,6 @@ label {
 }
 
 @media (max-width: 768px) {
-  #bs-example-navbar-collapse-1 {
-    margin-top: 15px;
-  }
   #about img {
     margin: 50px 0;
   }

@@ -17,20 +17,47 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    let mcontainer = document.getElementById("msg");
+    mcontainer.hidden = true;
+    let btn = document.getElementById('email-btn');
+    btn.innerText = "Sending..."
     console.log(name, email, message)
-    emailjs
-      .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
-      )
-      .then(
-        (result) => {
-          console.log(result.text)
-          clearState()
-        },
-        (error) => {
-          console.log(error.text)
-        }
-      )
+  let header = {
+    'Content-Type': 'application/json',
+    "Authorization": "Basic ZWNlbGxAaWl0aTplY2VsbA"
+  }
+  let url = 'https://api.sheety.co/c0e0b109bd1a08e2e77e370264f55594/ecell/queries';
+  let body = {
+    query: {
+      "name": name,
+      "email": email,
+      "message": message
+    }
+  }
+  fetch(url, {
+    method: 'POST',
+    headers: header,
+    body: JSON.stringify(body)
+  })
+  .then((response) => response.status)
+  .then(json => {
+    let msg = "";
+    if(json == "200"){
+      msg = "Glad to hear from You! Message Successfully Send."
+    }else{
+      msg = "Something went wrong, Please try again...";
+      mcontainer.style.backgroundColor = "#EF6D6D";
+    }
+    let emailcon = document.getElementById("email");
+    let msgcon = document.getElementById("message");
+    let namecon = document.getElementById("name");
+    emailcon.value = "";
+    msgcon.value = "";
+    namecon.value = "";
+    mcontainer.hidden = false;
+    mcontainer.innerHTML = msg;
+    btn.innerText = "Send";
+  });
   }
   return (
     <div>
@@ -45,6 +72,7 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p> */}
               </div>
+              <div id='msg' hidden></div>
               <form name='sentMessage' validate onSubmit={handleSubmit}>
                 <div className='row'>
                   <div className='col-md-6'>
