@@ -91,6 +91,7 @@ hr {
   width: 30px;
   height: auto;
 }
+
 #menu {
   padding: 15px;
   transition: all 0.8s;
@@ -120,7 +121,8 @@ hr {
   align-items: center;
 }
 #menu .brandlogo {
-  height: 40px;
+  height: 90px;
+  padding-top: 5px;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
@@ -930,6 +932,9 @@ label {
 }
 
 @media (max-width: 768px) {
+  #bs-example-navbar-collapse-1 {
+    margin-top: 15px;
+  }
   #about img {
     margin: 50px 0;
   }
