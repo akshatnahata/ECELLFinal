@@ -157,69 +157,127 @@
 
   "Team": [
     {
-      "img": "img/team/Sharvari.jpeg",
-      "name": "Sharvari Kulkarni",
-      "res": "Secretary",
-      "facebook": "https://www.facebook.com/sesciiti/",
-      "twitter": "https://twitter.com/sesciiti",
-      "youtube": "youtube.com",
-      "isHead": false
+      "title": "Ecell",
+      "members": [
+        {
+          "img": "img/team/Sharvari.jpeg",
+          "name": "Sharvari Kulkarni",
+          "res": "Secretary",
+          "facebook": "https://www.facebook.com/sesciiti/",
+          "twitter": "https://twitter.com/sesciiti",
+          "youtube": "youtube.com",
+          "isHead": false
+        },
+        {
+          "img": "img/team/Garvit_Gupta.jpeg",
+          "name": "Garvit Gupta",
+          "res": "Joint-Secretary",
+          "facebook": "https://www.facebook.com/sesciiti/",
+          "twitter": "https://twitter.com/sesciiti",
+          "youtube": "youtube.com",
+          "isHead": false
+        }
+      ]
     },
     {
-      "img": "img/team/Garvit_Gupta.jpeg",
-      "name": "Garvit Gupta",
-      "res": "Joint-Secretary",
-      "facebook": "https://www.facebook.com/sesciiti/",
-      "twitter": "https://twitter.com/sesciiti",
-      "youtube": "youtube.com",
-      "isHead": false
+      "title": "Sponsorship and Marketing",
+      "members": [
+        {
+          "img": "img/team/DeveshJindal.jpg",
+          "name": "Devesh Jindal",
+          "res": "Sponsorship and Marketing",
+          "facebook": "https://www.facebook.com/sesciiti/",
+          "twitter": "https://twitter.com/sesciiti",
+          "youtube": "youtube.com",
+          "isHead": true
+        },
+        {
+          "img": "img/team/RishuPal.jpg",
+          "name": "Rishu Pal",
+          "res": "Sponsorship and Marketing",
+          "facebook": "https://www.facebook.com/sesciiti/",
+          "twitter": "https://twitter.com/sesciiti",
+          "youtube": "youtube.com",
+          "isHead": false
+        },
+        {
+          "img": "img/team/UtkarshKhairnar.jpg",
+          "name": "Utkarsh Khairnar",
+          "res": "Sponsorship and Marketing",
+          "facebook": "https://www.facebook.com/sesciiti/",
+          "twitter": "https://twitter.com/sesciiti",
+          "youtube": "youtube.com",
+          "isHead": false
+        },
+        {
+          "img": "img/team/DevendraAhirwar.jpg",
+          "name": "Devendra Ahirwar",
+          "res": "Sponsorship and Marketing",
+          "facebook": "https://www.facebook.com/sesciiti/",
+          "twitter": "https://twitter.com/sesciiti",
+          "youtube": "youtube.com",
+          "isHead": false
+        },
+        {
+          "img": "img/team/AnubhavSingh.jpg",
+          "name": "Anubhav Singh",
+          "res": "Sponsorship and Marketing",
+          "facebook": "https://www.facebook.com/sesciiti/",
+          "twitter": "https://twitter.com/sesciiti",
+          "youtube": "youtube.com",
+          "isHead": false
+        }
+      ]
     },
-
     {
-        "img": "img/team/DeveshJindal.jpg",
-        "name": "Devesh Jindal",
-        "res": "Sponsorship and Marketing",
-        "facebook": "https://www.facebook.com/sesciiti/",
-        "twitter": "https://twitter.com/sesciiti",
-        "youtube": "youtube.com",
-        "isHead": true
-      },
-      {
-        "img": "img/team/RishuPal.jpg",
-        "name": "Rishu Pal",
-        "res": "Sponsorship and Marketing",
-        "facebook": "https://www.facebook.com/sesciiti/",
-        "twitter": "https://twitter.com/sesciiti",
-        "youtube": "youtube.com",
-        "isHead": false
-      },
-      {
-        "img": "img/team/UtkarshKhairnar.jpg",
-        "name": "Utkarsh Khairnar",
-        "res": "Sponsorship and Marketing",
-        "facebook": "https://www.facebook.com/sesciiti/",
-        "twitter": "https://twitter.com/sesciiti",
-        "youtube": "youtube.com",
-        "isHead": false
-      },
-      {
-        "img": "img/team/DevendraAhirwar.jpg",
-        "name": "Devendra Ahirwar",
-        "res": "Sponsorship and Marketing",
-        "facebook": "https://www.facebook.com/sesciiti/",
-        "twitter": "https://twitter.com/sesciiti",
-        "youtube": "youtube.com",
-        "isHead": false
-      },
-      {
-        "img": "img/team/AnubhavSingh.jpg",
-        "name": "Anubhav Singh",
-        "res": "Sponsorship and Marketing",
-        "facebook": "https://www.facebook.com/sesciiti/",
-        "twitter": "https://twitter.com/sesciiti",
-        "youtube": "youtube.com",
-        "isHead": false
-      }
-
+      "title": "Technical Team",
+      "members": [
+        {
+          "img": "img/team/DeveshJindal.jpg",
+          "name": "Devesh Jindal",
+          "res": "Sponsorship and Marketing",
+          "facebook": "https://www.facebook.com/sesciiti/",
+          "twitter": "https://twitter.com/sesciiti",
+          "youtube": "youtube.com",
+          "isHead": true
+        },
+        {
+          "img": "img/team/RishuPal.jpg",
+          "name": "Rishu Pal",
+          "res": "Sponsorship and Marketing",
+          "facebook": "https://www.facebook.com/sesciiti/",
+          "twitter": "https://twitter.com/sesciiti",
+          "youtube": "youtube.com",
+          "isHead": false
+        },
+        {
+          "img": "img/team/UtkarshKhairnar.jpg",
+          "name": "Utkarsh Khairnar",
+          "res": "Sponsorship and Marketing",
+          "facebook": "https://www.facebook.com/sesciiti/",
+          "twitter": "https://twitter.com/sesciiti",
+          "youtube": "youtube.com",
+          "isHead": false
+        },
+        {
+          "img": "img/team/DevendraAhirwar.jpg",
+          "name": "Devendra Ahirwar",
+          "res": "Sponsorship and Marketing",
+          "facebook": "https://www.facebook.com/sesciiti/",
+          "twitter": "https://twitter.com/sesciiti",
+          "youtube": "youtube.com",
+          "isHead": false
+        },
+        {
+          "img": "img/team/AnubhavSingh.jpg",
+          "name": "Anubhav Singh",
+          "res": "Sponsorship and Marketing",
+          "facebook": "https://www.facebook.com/sesciiti/",
+          "twitter": "https://twitter.com/sesciiti",
+          "youtube": "youtube.com",
+          "isHead": false
+        }
+      ]
+    }
   ]
 }
