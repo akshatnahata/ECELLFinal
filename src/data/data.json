@@ -12,48 +12,9 @@
   },
   "About": {
     "paragraph": "Entrepreneurship Cell at IIT Indore believes that entrepreneurship is not just about starting companies, but a pathway towards India's socio-economic development. Our vision is to make students and faculty entrepreneurial in every work that they do. We hope to enable them to solve global challenges as we see students as the greatest capital and intend to nurture them, provide them with opportunities for excellence.",
-    "vision": "E-Cell aims to unlock students' latent inventive potential. Not only do we show you the doors of opportunity but we also equip you to walk through it. Through our conference, social events, lectures, speaker engagements and workshops, we're hoping to bring together everyone interested in the startup world and to help students best utilize resources to found or join startups...",
-    "Why": [
-      
-      "speaker engagements",
-      "social events",
-      "lectures",
-      "conference"
-    ],
-    "Why2": [
-      "workshops",
-      "join startups",
-      "unlock students",
-      "inventive potential"
-    ]
+    "vision": "E-Cell aims to unlock students' latent inventive potential. Not only do we show you the doors of opportunity but we also equip you to walk through it. Through our conference, social events, lectures, speaker engagements and workshops, we're hoping to bring together everyone interested in the startup world and to help students best utilize resources to found or join startups..."
   },
-  "Partners": [
-    {
-      "title": "WittyFeed",
-      "link": "http://ww7.wittyfeed.tv/",
-      "image": "img/partners/wittyfeed.jpg"
-    },
-    {
-      "title": "Career360",
-      "link": "https://www.careers360.com/",
-      "image": "img/partners/career360.jpg"
-    },
-    {
-      "title": "Saavn",
-      "link": "https://www.jiosaavn.com/",
-      "image": "img/partners/saavn.jpg"
-    },
-    {
-      "title": "HackerEarth",
-      "link": "https://www.hackerearth.com/",
-      "image": "img/partners/hackerearth.jpg"
-    },
-    {
-      "title": "Peopleist India",
-      "link": "https://www.peopleist.in/",
-      "image": "img/partners/peopleist.jpg"
-    }
-  ],
+
   "WhatWeDo": [
     {
       "icon": "fa fa-wordpress",
@@ -82,24 +43,6 @@
     }
 
   ],
-  
-  "Mentors": [
-    {
-      "img": "img/mentors/nishant.jpg",
-      "name": "Nishant Gautam",
-      "job": "ng29834@gmail.com"
-    }
-    
-  ],
-  "Contact": {
-    "address": "Room 302-B, PHY-1, Academic POD, IIT Indore, Madhya Pradesh-452020 ",
-    "phone": "Sharvari Kulkarni :+91-9325961083",
-    "email": "ecell@iiti.ac.in",
-    "facebook": "https://www.facebook.com/sesciiti/",
-    "twitter": "https://twitter.com/sesciiti",
-    "instagram": "https://www.instagram.com/ecelliitindore/",
-    "linkedin" : "https://www.linkedin.com/company/sesc-iiti/"
-  },
 
   "Events": [
     {
@@ -123,6 +66,51 @@
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam. Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
   ],
+
+  "Partners": [
+    {
+      "title": "WittyFeed",
+      "link": "http://ww7.wittyfeed.tv/",
+      "image": "img/partners/wittyfeed.jpg"
+    },
+    {
+      "title": "Career360",
+      "link": "https://www.careers360.com/",
+      "image": "img/partners/career360.jpg"
+    },
+    {
+      "title": "Saavn",
+      "link": "https://www.jiosaavn.com/",
+      "image": "img/partners/saavn.jpg"
+    },
+    {
+      "title": "HackerEarth",
+      "link": "https://www.hackerearth.com/",
+      "image": "img/partners/hackerearth.jpg"
+    },
+    {
+      "title": "Peopleist India",
+      "link": "https://www.peopleist.in/",
+      "image": "img/partners/peopleist.jpg"
+    }
+  ],
+  "Mentors": [
+    {
+      "img": "img/mentors/nishant.jpg",
+      "name": "Nishant Gautam",
+      "job": "ng29834@gmail.com"
+    }
+    
+  ],
+  "Contact": {
+    "address": "Room 302-B, PHY-1, Academic POD, IIT Indore, Madhya Pradesh-452020 ",
+    "phone": "Sharvari Kulkarni :+91-9325961083",
+    "email": "ecell@iiti.ac.in",
+    "facebook": "https://www.facebook.com/sesciiti/",
+    "twitter": "https://twitter.com/sesciiti",
+    "instagram": "https://www.instagram.com/ecelliitindore/",
+    "linkedin" : "https://www.linkedin.com/company/sesc-iiti/"
+  },
 
   "Team": [
     {
