@@ -120,8 +120,16 @@ hr {
   align-items: center;
 }
 #menu .brandlogo {
-  height: 90px;
-  padding-top: 5px;
+   height: 85px;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  position:absolute;
+     left:10px;
+    top:10px;
+    display:inline-block;  
+    float: left;  
+    
+    
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
