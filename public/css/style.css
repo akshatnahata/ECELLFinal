@@ -611,30 +611,31 @@ header .intro-text {
   align-items: center;
 }
  /*  What we do Section */
-.service {
+.whatWeDo {
   margin: auto;
   margin-bottom: 40px;
+  width: 400px;
 }
 
-#whatWeDo {
+#whatWeDoContainer {
   padding: 150px 0 50px 0px;
   background: linear-gradient(to right, #1181B1 0%, #00AEEF 100%);
   color: #fff;
 }
-#whatWeDo .row{
+#whatWeDoContainer .row{
   display: flex;
   flex-wrap: wrap;
   padding: auto;
   justify-content: center;
 }
-#whatWeDo .service-desc {
+#whatWeDoContainer .whatWeDo-desc {
   margin: 10px 10px 20px;
 }
-#whatWeDo h2 {
+#whatWeDoContainer h2 {
   color: #fff;
   margin-top: -30px;
 }
-#whatWeDo .section-title h2::after {
+#whatWeDoContainer .section-title h2::after {
   position: absolute;
   content: "";
   background: rgba(255, 255, 255, 0.3);
@@ -644,7 +645,7 @@ header .intro-text {
   margin-left: -30px;
   left: 50%;
 }
-#whatWeDo i.fa {
+#whatWeDoContainer i.fa {
   font-size: 42px;
   width: 120px;
   height: 120px;
@@ -654,16 +655,16 @@ header .intro-text {
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
-#whatWeDo h3 {
+#whatWeDoContainer h3 {
   font-weight: 500;
   padding: 5px 0;
   color: #fff;
 }
-#whatWeDo p {
+#whatWeDoContainer p {
   color: rgba(255, 255, 255, 0.75);
   text-align: justify;
 }
-#whatWeDo .service-desc {
+#whatWeDoContainer .whatWeDo-desc {
   margin-bottom: 40px;
 }
 /*  Previous Partener Section */
