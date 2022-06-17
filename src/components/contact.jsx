@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import emailjs from 'emailjs-com'
+// import emailjs from 'emailjs-com'
 
 const initialState = {
   name: '',
@@ -13,7 +13,7 @@ export const Contact = (props) => {
     const { name, value } = e.target
     setState((prevState) => ({ ...prevState, [name]: value }))
   }
-  const clearState = () => setState({ ...initialState })
+  // const clearState = () => setState({ ...initialState })
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -21,7 +21,7 @@ export const Contact = (props) => {
     mcontainer.hidden = true;
     let btn = document.getElementById('email-btn');
     btn.innerText = "Sending..."
-    console.log(name, email, message)
+    // console.log(name, email, message)
   let header = {
     'Content-Type': 'application/json',
     "Authorization": "Basic ZWNlbGxAaWl0aTplY2VsbA"

@@ -157,12 +157,12 @@
 
   "Team": [
     {
-      "title": "Ecell",
+      "title": "",
       "members": [
         {
           "img": "img/team/Sharvari.jpeg",
           "name": "Sharvari Kulkarni",
-          "res": "Secretary",
+          "position": "Secretary",
           "facebook": "https://www.facebook.com/sesciiti/",
           "twitter": "https://twitter.com/sesciiti",
           "youtube": "youtube.com",
@@ -171,7 +171,7 @@
         {
           "img": "img/team/Garvit_Gupta.jpeg",
           "name": "Garvit Gupta",
-          "res": "Joint-Secretary",
+          "position": "Joint-Secretary",
           "facebook": "https://www.facebook.com/sesciiti/",
           "twitter": "https://twitter.com/sesciiti",
           "youtube": "youtube.com",
@@ -185,7 +185,6 @@
         {
           "img": "img/team/DeveshJindal.jpg",
           "name": "Devesh Jindal",
-          "res": "Sponsorship and Marketing",
           "facebook": "https://www.facebook.com/sesciiti/",
           "twitter": "https://twitter.com/sesciiti",
           "youtube": "youtube.com",
@@ -194,7 +193,6 @@
         {
           "img": "img/team/RishuPal.jpg",
           "name": "Rishu Pal",
-          "res": "Sponsorship and Marketing",
           "facebook": "https://www.facebook.com/sesciiti/",
           "twitter": "https://twitter.com/sesciiti",
           "youtube": "youtube.com",
@@ -203,7 +201,6 @@
         {
           "img": "img/team/UtkarshKhairnar.jpg",
           "name": "Utkarsh Khairnar",
-          "res": "Sponsorship and Marketing",
           "facebook": "https://www.facebook.com/sesciiti/",
           "twitter": "https://twitter.com/sesciiti",
           "youtube": "youtube.com",
@@ -212,7 +209,6 @@
         {
           "img": "img/team/DevendraAhirwar.jpg",
           "name": "Devendra Ahirwar",
-          "res": "Sponsorship and Marketing",
           "facebook": "https://www.facebook.com/sesciiti/",
           "twitter": "https://twitter.com/sesciiti",
           "youtube": "youtube.com",
@@ -221,7 +217,6 @@
         {
           "img": "img/team/AnubhavSingh.jpg",
           "name": "Anubhav Singh",
-          "res": "Sponsorship and Marketing",
           "facebook": "https://www.facebook.com/sesciiti/",
           "twitter": "https://twitter.com/sesciiti",
           "youtube": "youtube.com",
@@ -235,7 +230,6 @@
         {
           "img": "img/team/DeveshJindal.jpg",
           "name": "Devesh Jindal",
-          "res": "Sponsorship and Marketing",
           "facebook": "https://www.facebook.com/sesciiti/",
           "twitter": "https://twitter.com/sesciiti",
           "youtube": "youtube.com",
@@ -244,7 +238,6 @@
         {
           "img": "img/team/RishuPal.jpg",
           "name": "Rishu Pal",
-          "res": "Sponsorship and Marketing",
           "facebook": "https://www.facebook.com/sesciiti/",
           "twitter": "https://twitter.com/sesciiti",
           "youtube": "youtube.com",
@@ -252,8 +245,7 @@
         },
         {
           "img": "img/team/UtkarshKhairnar.jpg",
-          "name": "Utkarsh Khairnar",
-          "res": "Sponsorship and Marketing",
+          "name": "Utkarsh Khairnar", 
           "facebook": "https://www.facebook.com/sesciiti/",
           "twitter": "https://twitter.com/sesciiti",
           "youtube": "youtube.com",
@@ -261,8 +253,52 @@
         },
         {
           "img": "img/team/DevendraAhirwar.jpg",
-          "name": "Devendra Ahirwar",
-          "res": "Sponsorship and Marketing",
+          "name": "Devendra Ahirwar", 
+          "facebook": "https://www.facebook.com/sesciiti/",
+          "twitter": "https://twitter.com/sesciiti",
+          "youtube": "youtube.com",
+          "isHead": false
+        },
+        {
+          "img": "img/team/AnubhavSingh.jpg",
+          "name": "Anubhav Singh", 
+          "facebook": "https://www.facebook.com/sesciiti/",
+          "twitter": "https://twitter.com/sesciiti",
+          "youtube": "youtube.com",
+          "isHead": false
+        }
+      ]
+    },
+    {
+      "title": "Content and Social media team",
+      "members": [
+        {
+          "img": "img/team/DeveshJindal.jpg",
+          "name": "Devesh Jindal", 
+          "facebook": "https://www.facebook.com/sesciiti/",
+          "twitter": "https://twitter.com/sesciiti",
+          "youtube": "youtube.com",
+          "isHead": true
+        },
+        {
+          "img": "img/team/RishuPal.jpg",
+          "name": "Rishu Pal", 
+          "facebook": "https://www.facebook.com/sesciiti/",
+          "twitter": "https://twitter.com/sesciiti",
+          "youtube": "youtube.com",
+          "isHead": false
+        },
+        {
+          "img": "img/team/UtkarshKhairnar.jpg",
+          "name": "Utkarsh Khairnar", 
+          "facebook": "https://www.facebook.com/sesciiti/",
+          "twitter": "https://twitter.com/sesciiti",
+          "youtube": "youtube.com",
+          "isHead": false
+        },
+        {
+          "img": "img/team/DevendraAhirwar.jpg",
+          "name": "Devendra Ahirwar", 
           "facebook": "https://www.facebook.com/sesciiti/",
           "twitter": "https://twitter.com/sesciiti",
           "youtube": "youtube.com",
@@ -271,7 +307,6 @@
         {
           "img": "img/team/AnubhavSingh.jpg",
           "name": "Anubhav Singh",
-          "res": "Sponsorship and Marketing",
           "facebook": "https://www.facebook.com/sesciiti/",
           "twitter": "https://twitter.com/sesciiti",
           "youtube": "youtube.com",

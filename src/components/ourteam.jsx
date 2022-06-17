@@ -102,10 +102,6 @@ export const Ourteam = (props) => {
             <h2>{team.title}</h2>
           </Fade>
 
-          {/* <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
-            </p> */}
         </div>
         <Fade>
           <div id="row">
@@ -116,7 +112,7 @@ export const Ourteam = (props) => {
                   <img class="round" src={d.img} alt="user" />
                   <Bounce right>
                     <h3>{d.name}</h3>
-                    <h6>{d.res}</h6>
+                    {d.position ? <h6>{d.position}</h6> : ""}
                   </Bounce>
                   <div class="skills">
                     <Zoom cascade>
