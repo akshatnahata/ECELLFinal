@@ -106,6 +106,8 @@ hr {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  float: right;
+  //done
 
 }
 #menu a.navbar-brand {
@@ -117,6 +119,7 @@ hr {
   padding: 0px;
   display: flex;
   justify-content: space-around;
+  float: right;
   align-items: center;
 }
 #menu .brandlogo {
