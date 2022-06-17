@@ -101,14 +101,9 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu .container-nav {
-  padding: 0px;
-  margin: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  float: right;
-  //done
-
 }
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
@@ -119,20 +114,12 @@ hr {
   padding: 0px;
   display: flex;
   justify-content: space-around;
-  float: right;
   align-items: center;
 }
 #menu .brandlogo {
-   height: 85px;
-  padding-top: 0px;
-  padding-bottom: 15px;
-  position:absolute;
-     left:10px;
-    top:10px;
-    display:inline-block;  
-    float: left;  
-    
-    
+   height: calc(100% + 20px);
+  padding: auto;
+  padding-left: 50px; 
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
