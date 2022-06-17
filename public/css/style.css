@@ -134,7 +134,7 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: rgb(0, 24, 44);
   font-size: 15px;
   font-weight: 700;
   padding: 8px 2px;
@@ -336,6 +336,7 @@ a:focus,
 	background: linear-gradient(to bottom, #00182C 33%, #00AEEF 20%, #1181B1 67%);
 	background: linear-gradient(to top, #00AEEF 67%, #bcdfec 33%);
 	background: linear-gradient(to bottom, #00AEEF 30%, #1181B1 100%);
+  /* background: rgb(0, 24, 44); */
 	border-radius: 5px;
 	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
 	color: #f0f1f7;
@@ -540,7 +541,7 @@ header .intro-text {
 }
 /* events Section */
 #events, #mentor {
-  background: #f6f6f6;
+  background: #a8e8ff60;
 }
 #events{
   padding: 100px 0px 50px 0px; 
@@ -619,30 +620,36 @@ header .intro-text {
   align-items: center;
 }
  /*  What we do Section */
-.service {
-  margin: auto;
+.whatWeDo {
+  margin: 50px;
   margin-bottom: 40px;
+  width: 420px;
+  overflow: auto;
+  height: max-content;
 }
 
-#whatWeDo {
+#whatWeDoContainer {
   padding: 150px 0 50px 0px;
-  background: linear-gradient(to right, #1181B1 0%, #00AEEF 100%);
+  background: rgb(0, 24, 44);
   color: #fff;
 }
-#whatWeDo .row{
+#whatWeDoContainer .row{
   display: flex;
   flex-wrap: wrap;
   padding: auto;
   justify-content: center;
 }
-#whatWeDo .service-desc {
+#whatWeDoContainer .whatWeDo-desc {
   margin: 10px 10px 20px;
 }
-#whatWeDo h2 {
+#whatWeDoContainer .whatWeDo-desc p {
+  text-align: justify;
+}
+#whatWeDoContainer h2 {
   color: #fff;
   margin-top: -30px;
 }
-#whatWeDo .section-title h2::after {
+#whatWeDoContainer .section-title h2::after {
   position: absolute;
   content: "";
   background: rgba(255, 255, 255, 0.3);
@@ -652,28 +659,29 @@ header .intro-text {
   margin-left: -30px;
   left: 50%;
 }
-#whatWeDo i.fa {
-  font-size: 42px;
-  width: 120px;
-  height: 120px;
-  padding: 40px 0;
+#whatWeDoContainer i.fa {
+  font-size: 40px;
+  width: 80px;
+  height: 80px;
+  padding: 20px;
   background: linear-gradient(to right, #1181B1 0%, #00AEEF 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
-#whatWeDo h3 {
+#whatWeDoContainer h3 {
   font-weight: 500;
   padding: 5px 0;
   color: #fff;
 }
-#whatWeDo p {
+#whatWeDoContainer p {
   color: rgba(255, 255, 255, 0.75);
   text-align: justify;
 }
-#whatWeDo .service-desc {
+#whatWeDoContainer .whatWeDo-desc {
   margin-bottom: 40px;
 }
+
 /*  Previous Partener Section */
 #partners {
   padding: 60px 0px 50px 0px;
@@ -773,7 +781,7 @@ header .intro-text {
 /* Mentors Section */
 #mentors {
   padding: 100px 0;
-  background-color: #f6f6f6;
+  background: #a8e8ff60;
 }
 #mentors .mentor{
   display: flex;
@@ -813,7 +821,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 10px;
-  background: #00182C;
+  background: linear-gradient(to bottom, rgb(0, 24, 44) 0%, rgb(0, 0, 0) 100%);;
   color: rgba(255, 255, 255, 0.75);
 }
 #contact #msg{

@@ -92,30 +92,27 @@ export const Ourteam = (props) => {
           </div>
         </Fade>
       </div> */}
-      <div className="container odd">
+      {props.data ? props.data.map((team, i) => (
+        <div className={i%2 == 0 ? "container odd" : "container"}>
         <div
           className="col-md-8 col-md-offset-2 section-title"
           style={{ marginBottom: "20px" }}
         >
           <Fade bottom>
-            <h2>Sponsorship and Marketing Team</h2>
+            <h2>{team.title}</h2>
           </Fade>
 
-          {/* <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
-            </p> */}
         </div>
         <Fade>
           <div id="row">
-            {props.data
-              ? props.data.map((d, i) => (
+            {team.members
+              ? team.members.map((d, i) => (
                 <div class="card-container">
                   {d.isHead && <div className="card--badge">Head</div>}
                   <img class="round" src={d.img} alt="user" />
                   <Bounce right>
                     <h3>{d.name}</h3>
-                    <h6>{d.res}</h6>
+                    {d.position ? <h6>{d.position}</h6> : ""}
                   </Bounce>
                   <div class="skills">
                     <Zoom cascade>
@@ -144,110 +141,8 @@ export const Ourteam = (props) => {
           </div>
         </Fade>
       </div>
-      <div className="container">
-        <div
-          className="col-md-8 col-md-offset-2 section-title"
-          style={{ marginBottom: "20px" }}
-        >
-          <Fade bottom>
-            <h2>TECHNICAL TEAM</h2>
-          </Fade>
-
-          {/* <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
-            </p> */}
-        </div>
-        <Fade>
-          <div id="row">
-            {props.data
-              ? props.data.map((d, i) => (
-                <div class="card-container">
-                  {d.isHead && <div className="card--badge">Head</div>}
-                  <img class="round" src={d.img} alt="user" />
-                  <Bounce right>
-                    <h3>{d.name}</h3>
-                    <h6>{d.res}</h6>
-                  </Bounce>
-                  <div class="skills">
-                    <Zoom cascade>
-                      <ul>
-                        <a target="_blank" href={d.facebook ? d.facebook : "/"}>
-                          <li>
-                            <i className="fa fa-facebook"></i>
-                          </li>
-                        </a>
-                        <a target="_blank" href={d.twitter ? d.twitter : "/"}>
-                          <li>
-                            <i className="fa fa-twitter"></i>
-                          </li>
-                        </a>
-                        <a target="_blank" href={d.youtube ? d.youtube : "/"}>
-                          <li>
-                            <i className="fa fa-youtube"></i>
-                          </li>
-                        </a>
-                      </ul>
-                    </Zoom>
-                  </div>
-                </div>
-              ))
-              : "loading"}
-          </div>
-        </Fade>
-      </div>
-      <div className="container odd">
-        <div
-          className="col-md-8 col-md-offset-2 section-title"
-          style={{ marginBottom: "20px" }}
-        >
-          <Fade bottom>
-            <h2>CONTENT TEAM</h2>
-          </Fade>
-
-          {/* <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
-            </p> */}
-        </div>
-        <Fade>
-          <div id="row">
-            {props.data
-              ? props.data.map((d, i) => (
-                <div class="card-container">
-                  {d.isHead && <div className="card--badge">Head</div>}
-                  <img class="round" src={d.img} alt="user" />
-                  <Bounce right>
-                    <h3>{d.name}</h3>
-                    <h6>{d.res}</h6>
-                  </Bounce>
-                  <div class="skills">
-                    <Zoom cascade>
-                      <ul>
-                        <a target="_blank" href={d.facebook ? d.facebook : "/"}>
-                          <li>
-                            <i className="fa fa-facebook"></i>
-                          </li>
-                        </a>
-                        <a target="_blank" href={d.twitter ? d.twitter : "/"}>
-                          <li>
-                            <i className="fa fa-twitter"></i>
-                          </li>
-                        </a>
-                        <a target="_blank" href={d.youtube ? d.youtube : "/"}>
-                          <li>
-                            <i className="fa fa-youtube"></i>
-                          </li>
-                        </a>
-                      </ul>
-                    </Zoom>
-                  </div>
-                </div>
-              ))
-              : "loading"}
-          </div>
-        </Fade>
-      </div>
+      )): "Loading..."}
+      
     </div>
   );
 };
