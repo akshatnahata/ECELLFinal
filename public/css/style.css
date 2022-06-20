@@ -688,7 +688,7 @@ header .intro-text {
 .partners-item {
   margin: auto;
   padding: 0;
-  width: 250px;
+  width: 15.265em;
   height: auto;
 }
 #partners .partners-row {
@@ -698,7 +698,7 @@ header .intro-text {
   justify-content: center;
 }
 .partners-title {
-  padding-top: 50px;
+  padding-top: 3.125em;
 }
 /* .partners-item .hover-bg {
   overflow: hidden;
@@ -779,7 +779,7 @@ header .intro-text {
 }
 /* Mentors Section */
 #mentors {
-  padding: 100px 0;
+  padding: 6.25em /100px/ 0;
   background: #a8e8ff60;
 }
 #mentors .mentor {
@@ -790,11 +790,11 @@ header .intro-text {
 #mentors .mentor img {
   border-radius: 5%;
   box-shadow: rgba(51, 51, 51, 0.418) 0 0 5px 3px;
-  width: 220px;
-  height: 220px;
+  width: 13.75em;
+  height: 13.75em;
 }
 #mentors h4 {
-  margin: 5px 0;
+  margin: 0.3125em 0;
 }
 #mentors .container {
   display: flex;
@@ -807,14 +807,14 @@ header .intro-text {
   justify-content: center;
 }
 #mentors .mentor-img {
-  width: 240px;
+  width: 15em /240px;
 }
 #mentors .thumbnail {
   background: transparent;
   border: 0;
 }
 #mentors .thumbnail .caption {
-  padding: 10px 0 0;
+  padding: 0.625em 0 0;
   color: #888;
 }
 /* Contact Section */
@@ -837,7 +837,7 @@ header .intro-text {
   margin-bottom: 40px;
 }
 #contact .section-title p {
-  font-size: 16px;
+  font-size: 1em;
 }
 #contact h2 {
   color: #fff;
@@ -878,7 +878,7 @@ header .intro-text {
   background: #fff;
 }
 label {
-  font-size: 12px;
+  font-size: 0.75em;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   float: left;
@@ -887,7 +887,7 @@ label {
   display: block;
   width: 100%;
   padding: 6px 12px;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 1.42857143;
   color: #444;
   background-color: #fff;
