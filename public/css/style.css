@@ -1031,6 +1031,17 @@ label {
   #whatWeDoContainer .whatWeDo-desc {
     margin: 0px 0px 0px !important;
   }
+  .intro-text h1 {
+    font-size: 50px !important;
+  }
+  #ourteam .container {
+    padding: 30px;
+    width: 100%;
+  }
+  .section-title h2 {
+    font-size: 30px !important;
+    width: 100% !important;
+  }
   html {
     overflow-x: hidden;
   }
@@ -1045,6 +1056,17 @@ label {
   }
   .intro #quote {
     font-size: 20px;
+  }
+  .intro-text h1 {
+    font-size: 40px !important;
+  }
+  #ourteam .container {
+    padding: 20px;
+    width: 100%;
+  }
+  .section-title h2 {
+    font-size: 24px !important;
+    width: 100% !important;
   }
 }
 
@@ -1063,5 +1085,12 @@ label {
 @media (max-width: 850px) {
   .navbar-right > li > a {
     font-size: 10px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .section-title h2 {
+    font-size: 21px !important;
+    width: 100% !important;
   }
 }
