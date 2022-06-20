@@ -466,6 +466,7 @@ a:focus,
 .intro .overlay {
   background: #00000081;
 }
+
 #header .social-media-list {
   position: absolute;
   bottom: 10px;
@@ -969,6 +970,26 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
+/* Responsive */
+
+@media (max-width: 1000px) {
+  .navbar-right > li > a {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 920px) {
+  .navbar-right > li > a {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .navbar-right > li > a {
+    font-size: 10px !important;
+  }
+}
+
 @media (max-width: 768px) {
   #bs-example-navbar-collapse-1 {
     margin-top: 15px;
@@ -1048,43 +1069,43 @@ label {
 }
 
 @media (max-width: 600px) {
-  .intro h1 {
-    font-size: 24px;
+
+  .intro-text h1 {
+    font-size: 40px !important;
   }
+
   .intro #IITI {
     font-size: 20px;
   }
   .intro #quote {
     font-size: 20px;
   }
-  .intro-text h1 {
-    font-size: 40px !important;
+
+  .intro .btn {
+    font-size: 10px;
+    padding: 10px 15px;
   }
   #ourteam .container {
     padding: 20px;
     width: 100%;
+  }
+  .about-text h2 {
+    font-size: 24px !important;
   }
   .section-title h2 {
     font-size: 24px !important;
     width: 100% !important;
   }
 }
-
-@media (max-width: 1000px) {
-  .navbar-right > li > a {
-    font-size: 13px !important;
+@media (max-width: 500px) {
+  .intro-text h1 {
+    font-size: 30px !important;
   }
-}
-
-@media (max-width: 920px) {
-  .navbar-right > li > a {
-    font-size: 12px !important;
+  .intro #IITI {
+    font-size: 16px;
   }
-}
-
-@media (max-width: 850px) {
-  .navbar-right > li > a {
-    font-size: 10px !important;
+  .intro #quote {
+    font-size: 16px;
   }
 }
 
@@ -1092,5 +1113,17 @@ label {
   .section-title h2 {
     font-size: 21px !important;
     width: 100% !important;
+  }
+}
+
+@media (max-width: 300px) {
+  .intro-text h1 {
+    font-size: 20px !important;
+  }
+  .intro #IITI {
+    font-size: 12px;
+  }
+  .intro #quote {
+    font-size: 12px;
   }
 }
