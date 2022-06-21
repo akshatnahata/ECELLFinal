@@ -466,6 +466,7 @@ a:focus,
 .intro .overlay {
   background: #00000081;
 }
+
 #header .social-media-list {
   position: absolute;
   bottom: 10px;
@@ -955,7 +956,7 @@ label {
 }
 /* Footer Section*/
 #copyright {
-  margin: 30px auto 0;
+  margin: 1.875em auto 0;
 }
 
 #footer p {
@@ -967,6 +968,26 @@ label {
 }
 #footer a:hover {
   border-bottom: 0.125em solid #608dfd;
+}
+
+/* Responsive */
+
+@media (max-width: 1000px) {
+  .navbar-right > li > a {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 920px) {
+  .navbar-right > li > a {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .navbar-right > li > a {
+    font-size: 10px !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1031,37 +1052,78 @@ label {
   #whatWeDoContainer .whatWeDo-desc {
     margin: 0px 0px 0px !important;
   }
+  .intro-text h1 {
+    font-size: 50px !important;
+  }
+  #ourteam .container {
+    padding: 30px;
+    width: 100%;
+  }
+  .section-title h2 {
+    font-size: 30px !important;
+    width: 100% !important;
+  }
   html {
     overflow-x: hidden;
   }
 }
 
 @media (max-width: 600px) {
-  .intro h1 {
-    font-size: 24px;
+
+  .intro-text h1 {
+    font-size: 40px !important;
   }
+
   .intro #IITI {
     font-size: 20px;
   }
   .intro #quote {
     font-size: 20px;
   }
-}
 
-@media (max-width: 1000px) {
-  .navbar-right > li > a {
-    font-size: 13px !important;
+  .intro .btn {
+    font-size: 10px;
+    padding: 10px 15px;
+  }
+  #ourteam .container {
+    padding: 20px;
+    width: 100%;
+  }
+  .about-text h2 {
+    font-size: 24px !important;
+  }
+  .section-title h2 {
+    font-size: 24px !important;
+    width: 100% !important;
+  }
+}
+@media (max-width: 500px) {
+  .intro-text h1 {
+    font-size: 30px !important;
+  }
+  .intro #IITI {
+    font-size: 16px;
+  }
+  .intro #quote {
+    font-size: 16px;
   }
 }
 
-@media (max-width: 920px) {
-  .navbar-right > li > a {
-    font-size: 12px !important;
+@media (max-width: 400px) {
+  .section-title h2 {
+    font-size: 21px !important;
+    width: 100% !important;
   }
 }
 
-@media (max-width: 850px) {
-  .navbar-right > li > a {
-    font-size: 10px !important;
+@media (max-width: 300px) {
+  .intro-text h1 {
+    font-size: 20px !important;
+  }
+  .intro #IITI {
+    font-size: 12px;
+  }
+  .intro #quote {
+    font-size: 12px;
   }
 }
