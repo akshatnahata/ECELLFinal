@@ -466,7 +466,6 @@ a:focus,
 .intro .overlay {
   background: #00000081;
 }
-
 #header .social-media-list {
   position: absolute;
   bottom: 10px;
@@ -507,20 +506,20 @@ a:focus,
 }
 .intro p {
   color: #fff;
-  font-size: 22px;
+  font-size: 1.375em;
   font-weight: 300;
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
 .intro #IITI {
-  font-size: 32px;
+  font-size: 2em;
   font-weight: 400;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .intro #quote {
-  font-weight: 400;
+  font-weight: 2em;
   font-style: italic;
   padding-top: 20px;
 }
@@ -538,7 +537,7 @@ header .intro-text {
   padding: 100px 0px 50px 0px;
 }
 #events i.fa {
-  font-size: 38px;
+  font-size: 2.375em;
   margin-bottom: 20px;
   transition: all 0.5s;
   color: #fff;
@@ -558,7 +557,7 @@ header .intro-text {
 }
 #about h3,
 #aboutnew h3 {
-  font-size: 32px;
+  font-size: 2em;
   margin: 0 0 20px;
 }
 #about h2,
@@ -589,7 +588,7 @@ header .intro-text {
   content: "\f00c";
   font-family: "FontAwesome";
   color: #00aeef;
-  font-size: 11px;
+  font-size: 0.6875em;
   font-weight: 300;
   padding-right: 8px;
 }
@@ -808,7 +807,7 @@ header .intro-text {
   justify-content: center;
 }
 #mentors .mentor-img {
-  width: 15em /240px;
+  width: 15em /*240px*/;
 }
 #mentors .thumbnail {
   background: transparent;
@@ -961,33 +960,13 @@ label {
 
 #footer p {
   color: #888;
-  font-size: 14px;
+  font-size: 0.875em;
 }
 #footer a {
   color: #608dfd;
 }
 #footer a:hover {
-  border-bottom: 2px solid #608dfd;
-}
-
-/* Responsive */
-
-@media (max-width: 1000px) {
-  .navbar-right > li > a {
-    font-size: 13px !important;
-  }
-}
-
-@media (max-width: 920px) {
-  .navbar-right > li > a {
-    font-size: 12px !important;
-  }
-}
-
-@media (max-width: 850px) {
-  .navbar-right > li > a {
-    font-size: 10px !important;
-  }
+  border-bottom: 0.125em solid #608dfd;
 }
 
 @media (max-width: 768px) {
@@ -1052,78 +1031,37 @@ label {
   #whatWeDoContainer .whatWeDo-desc {
     margin: 0px 0px 0px !important;
   }
-  .intro-text h1 {
-    font-size: 50px !important;
-  }
-  #ourteam .container {
-    padding: 30px;
-    width: 100%;
-  }
-  .section-title h2 {
-    font-size: 30px !important;
-    width: 100% !important;
-  }
   html {
     overflow-x: hidden;
   }
 }
 
 @media (max-width: 600px) {
-
-  .intro-text h1 {
-    font-size: 40px !important;
+  .intro h1 {
+    font-size: 24px;
   }
-
   .intro #IITI {
     font-size: 20px;
   }
   .intro #quote {
     font-size: 20px;
   }
-
-  .intro .btn {
-    font-size: 10px;
-    padding: 10px 15px;
-  }
-  #ourteam .container {
-    padding: 20px;
-    width: 100%;
-  }
-  .about-text h2 {
-    font-size: 24px !important;
-  }
-  .section-title h2 {
-    font-size: 24px !important;
-    width: 100% !important;
-  }
 }
-@media (max-width: 500px) {
-  .intro-text h1 {
-    font-size: 30px !important;
-  }
-  .intro #IITI {
-    font-size: 16px;
-  }
-  .intro #quote {
-    font-size: 16px;
+
+@media (max-width: 1000px) {
+  .navbar-right > li > a {
+    font-size: 13px !important;
   }
 }
 
-@media (max-width: 400px) {
-  .section-title h2 {
-    font-size: 21px !important;
-    width: 100% !important;
+@media (max-width: 920px) {
+  .navbar-right > li > a {
+    font-size: 12px !important;
   }
 }
 
-@media (max-width: 300px) {
-  .intro-text h1 {
-    font-size: 20px !important;
-  }
-  .intro #IITI {
-    font-size: 12px;
-  }
-  .intro #quote {
-    font-size: 12px;
+@media (max-width: 850px) {
+  .navbar-right > li > a {
+    font-size: 10px !important;
   }
 }
