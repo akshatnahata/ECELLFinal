@@ -699,7 +699,7 @@ header .intro-text {
   justify-content: center;
 }
 .partners-title {
-  padding-top: 3.125em;
+  padding-top: 1em;
 }
 /* .partners-item .hover-bg {
   overflow: hidden;
@@ -780,7 +780,7 @@ header .intro-text {
 }
 /* Mentors Section */
 #mentors {
-  padding: 6.25em /100px/ 0;
+  padding: 100px 0px;
   background: #a8e8ff60;
 }
 #mentors .mentor {
