@@ -42,7 +42,7 @@ export const Contact = (props) => {
   .then((response) => response.status)
   .then(json => {
     let msg = "";
-    if(json == "200"){
+    if(json === "200"){
       msg = "Glad to hear from You! Message Successfully Send."
     }else{
       msg = "Something went wrong, Please try again...";
@@ -155,21 +155,21 @@ export const Contact = (props) => {
               <div className='social'>
                 <ul>
                   <li>
-                    <a target="_blank" href={props.data ? props.data.facebook : '/'}>
+                    <a rel="noreferrer" target="_blank" href={props.data ? props.data.facebook : '/'}>
                       <i className='fa fa-facebook'></i>
                     </a>
                   </li>
                   <li>
-                    <a target="_blank" href={props.data ? props.data.twitter : '/'}>
+                    <a rel="noreferrer" target="_blank" href={props.data ? props.data.twitter : '/'}>
                       <i className='fa fa-twitter'></i>
                     </a>
                   </li>
                   <li>
-                    <a target="_blank" href={props.data ? props.data.instagram : '/'}>
+                    <a rel="noreferrer" target="_blank" href={props.data ? props.data.instagram : '/'}>
                       <i className='fa fa-instagram'></i>
                     </a>
                   </li>
-                  <a target="_blank" href={props.data ? props.data.linkedin : '/'}>
+                  <a rel="noreferrer" target="_blank" href={props.data ? props.data.linkedin : '/'}>
                   <li>
                     <i className="fa fa-linkedin-square"></i>
                   </li>

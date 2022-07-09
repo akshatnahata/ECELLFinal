@@ -1,4 +1,4 @@
-import { Zoom, Fade } from 'react-reveal';
+import { Fade } from 'react-reveal';
 export const Header = (props) => {
   return (
     <header id='header'>
@@ -27,22 +27,22 @@ export const Header = (props) => {
             </div>
           </div>
               <ul className="social-media-list">
-                <a target="_blank" href={props.data ? props.data.facebook : '/'}>
+                <a rel="noreferrer" target="_blank" href={props.data ? props.data.facebook : '/'}>
                   <li>
                     <i className="fa fa-facebook-square"></i>
                   </li>
                 </a>
-                <a target="_blank" href={props.data ? props.data.twitter : '/'}>
+                <a rel="noreferrer" target="_blank" href={props.data ? props.data.twitter : '/'}>
                   <li>
                     <i className="fa fa-twitter-square"></i>
                   </li>
                 </a>
-                <a target="_blank" href={props.data ? props.data.instagram : '/'}>
+                <a rel="noreferrer" target="_blank" href={props.data ? props.data.instagram : '/'}>
                   <li>
                     <i className="fa fa-instagram"></i>
                   </li>
                 </a>
-                <a target="_blank" href={props.data ? props.data.linkedin : '/'}>
+                <a rel="noreferrer" target="_blank" href={props.data ? props.data.linkedin : '/'}>
                   <li>
                     <i className="fa fa-linkedin-square"></i>
                   </li>

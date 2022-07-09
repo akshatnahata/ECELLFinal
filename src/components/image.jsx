@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 
 export const Image = ({ title, link, image }) => {
   return (
@@ -8,7 +8,8 @@ export const Image = ({ title, link, image }) => {
         <a
           href={link}
           title={title}
-          target='_blank'
+          rel="noreferrer"
+          target="_blank"
         >
           {/* <div className='hover-text'>
             <h4>{title}</h4>

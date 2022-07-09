@@ -68,17 +68,17 @@ export const Ourteam = (props) => {
                   <div class="skills">
                     <Zoom cascade>
                       <ul>
-                        <a target="_blank" href={d.facebook ? d.facebook : "/"}>
+                        <a rel="noreferrer" target="_blank" href={d.facebook ? d.facebook : "/"}>
                           <li>
                             <i className="fa fa-facebook"></i>
                           </li>
                         </a>
-                        <a target="_blank" href={d.twitter ? d.twitter : "/"}>
+                        <a rel="noreferrer" target="_blank" href={d.twitter ? d.twitter : "/"}>
                           <li>
                             <i className="fa fa-twitter"></i>
                           </li>
                         </a>
-                        <a target="_blank" href={d.youtube ? d.youtube : "/"}>
+                        <a rel="noreferrer" target="_blank" href={d.youtube ? d.youtube : "/"}>
                           <li>
                             <i className="fa fa-youtube"></i>
                           </li>
@@ -93,7 +93,7 @@ export const Ourteam = (props) => {
         </Fade>
       </div> */}
       {props.data ? props.data.map((team, i) => (
-        <div className={i%2 == 0 ? "container odd" : "container"}>
+        <div className={i%2 === 0 ? "container odd" : "container"}>
         <div
           className="col-md-8 col-md-offset-2 section-title"
           style={{ marginBottom: "20px" }}
@@ -117,17 +117,17 @@ export const Ourteam = (props) => {
                   <div class="skills">
                     <Zoom cascade>
                       <ul>
-                        <a target="_blank" href={d.facebook ? d.facebook : "/"}>
+                        <a rel="noreferrer" target="_blank" href={d.facebook ? d.facebook : "/"}>
                           <li>
                             <i className="fa fa-facebook"></i>
                           </li>
                         </a>
-                        <a target="_blank" href={d.twitter ? d.twitter : "/"}>
+                        <a rel="noreferrer" target="_blank" href={d.twitter ? d.twitter : "/"}>
                           <li>
                             <i className="fa fa-twitter"></i>
                           </li>
                         </a>
-                        <a target="_blank" href={d.youtube ? d.youtube : "/"}>
+                        <a rel="noreferrer" target="_blank" href={d.youtube ? d.youtube : "/"}>
                           <li>
                             <i className="fa fa-youtube"></i>
                           </li>
