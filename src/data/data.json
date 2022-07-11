@@ -271,5 +271,103 @@
         }
       ]
     }
+  ],
+  "Gallery": [
+    {
+      "id": "1",
+      "img": "img/gallery/img1.webp"
+    },
+    {
+      "id": 2,
+      "img": "img/gallery/img2.webp"
+    },
+    {
+      "id": 3,
+      "img": "img/gallery/img3.webp"
+    },
+    {
+      "id": 4,
+      "img": "img/gallery/img4.webp"
+    },
+    {
+      "id": 5,
+      "img": "img/gallery/img5.webp"
+    },
+    {
+      "id": 6,
+      "img": "img/gallery/img6.webp"
+    },
+    {
+      "id": 7,
+      "img": "img/gallery/img7.webp"
+    },
+    {
+      "id": "1",
+      "img": "img/gallery/img1.webp"
+    },
+    {
+      "id": 4,
+      "img": "img/gallery/img4.webp"
+    },
+    {
+      "id": 5,
+      "img": "img/gallery/img5.webp"
+    },
+    {
+      "id": 6,
+      "img": "img/gallery/img6.webp"
+    },
+    {
+      "id": 7,
+      "img": "img/gallery/img7.webp"
+    },
+    {
+      "id": "1",
+      "img": "img/gallery/img1.webp"
+    },
+    {
+      "id": 2,
+      "img": "img/gallery/img2.webp"
+    },
+    {
+      "id": 3,
+      "img": "img/gallery/img3.webp"
+    },
+    {
+      "id": 4,
+      "img": "img/gallery/img4.webp"
+    },
+    {
+      "id": 5,
+      "img": "img/gallery/img5.webp"
+    },
+    {
+      "id": "1",
+      "img": "img/gallery/img1.webp"
+    },
+    {
+      "id": 2,
+      "img": "img/gallery/img2.webp"
+    },
+    {
+      "id": 3,
+      "img": "img/gallery/img3.webp"
+    },
+    {
+      "id": 4,
+      "img": "img/gallery/img4.webp"
+    },
+    {
+      "id": 5,
+      "img": "img/gallery/img5.webp"
+    },
+    {
+      "id": 6,
+      "img": "img/gallery/img6.webp"
+    },
+    {
+      "id": 7,
+      "img": "img/gallery/img7.webp"
+    }
   ]
 }
