@@ -1,7 +1,7 @@
 import React from "react"
 import { useState } from "react";
 import CloseIcon from '@mui/icons-material/Close';
-import { Fade } from "react-reveal";
+// import { Fade } from "react-reveal";
 
 export const Gallery = (props) => {
 
@@ -21,12 +21,10 @@ export const Gallery = (props) => {
                 <div className='container'>
                     <div className='row'>
                     <div className='col-md-8 col-md-offset-2 intro-text'>
-                        <Fade bottom>
                         <h1>
                             Gallery {' '}
                             <span className="team-hero-year"></span>
                         </h1>
-                        </Fade>
                     </div>
                     </div>
                 </div>

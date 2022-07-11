@@ -477,6 +477,11 @@ a:focus,
   right: 15px;
   /* display: flex; */
 }
+.social-media-list a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .social-media-list li {
   /* border: 1px solid #f8f8fb; */
   color: white;
@@ -1105,12 +1110,16 @@ label {
   #header .social-media-list {
     position: relative;
     display: flex;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-media-list li {
+    margin: auto;
   }
   #header .overlay {
-    text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   .intro h1 {
