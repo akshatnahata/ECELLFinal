@@ -1,17 +1,17 @@
 import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
-import { Ourteam } from "./components/ourteam";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+import { Gallery } from "./components/gallery";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
 });
 
-const Member = () => {
+const GalleryPage = () => {
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
     setLandingPageData(JsonData);
@@ -21,10 +21,10 @@ const Member = () => {
   return (
     <div>
       <Navigation />
-      <Ourteam data={landingPageData.Team} />
+      <Gallery data={landingPageData.Gallery} />
       <Contact data={landingPageData.Contact} />
     </div>
   );
 };
 
-export default Member;
+export default GalleryPage;
