@@ -5,12 +5,14 @@ import App from './App';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import * as serviceWorker from './serviceWorker';
 import Team from './Team';
+import GalleryPage from './GalleryPage';
 
 ReactDOM.render(
   <Router>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/team" element={<Team />} />
+      <Route path="/gallery" element={<GalleryPage />} />
     </Routes>
     
   </Router>,
